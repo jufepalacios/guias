@@ -1,4 +1,6 @@
 
+![](../banner2.png)
+
 Wide World Importers nos contrata como consultores para hacer un proyecto de analítica 1.0, en el cual quiere entender el comportamiento de los clientes o vendedores a partir de órdenes de venta con el fin de monitorear el logro de los objetivos estratégicos anteriores. Como resultados de la consultoría se tiene:
 
 1. La documentación de los requerimientos analíticos en el siguiente formato
