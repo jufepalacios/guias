@@ -41,4 +41,3 @@ Tomando como base el contenido visto en la semana uno sobre metodología, arquit
 
 Usted debe entregar un reporte en pdf que contenga lo solicitado.
 
-# Más información
