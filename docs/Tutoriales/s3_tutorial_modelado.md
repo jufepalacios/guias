@@ -1,5 +1,5 @@
 
-# Tarea: Modelo dimensional y sql
+# Tarea: Modelo dimensional y SQL
 
 ## Introducción
 
