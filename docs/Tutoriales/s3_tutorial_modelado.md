@@ -1,9 +1,7 @@
 
-# Tarea:
+# Tarea: Modelo dimensional y sql
 
-# **Modelo dimensional y sql**
-
-# Introducción
+## Introducción
 
 **Objetivo**
 
@@ -15,6 +13,7 @@ En este tutorial aprenderá la relación entre el diseño de un modelo dimension
 - Resolver el requerimiento analítico con consultas a la base de datos
 
 **¿Para qué?**
+
 Entender la relación entre SQL y el modelo multidimensional
 
 **¿Qué necesita?**
@@ -23,6 +22,7 @@ Entender la relación entre SQL y el modelo multidimensional
 2. Modelo multidimensional de ordenes de Wide World Importers
 3. Credenciales de acceso a la base de datos
 
+## Enunciado
 
 El modelo multidimensional para el proceso de pedidos de Wide World Importers se muestra a continuación, consta de 6 dimensiones: Producto, Paquete, Empleado, Cliente, Ciudad y Fecha.
  
@@ -41,7 +41,7 @@ CREATE TABLE nombre_de_la_tabla ( LISTA DE ATRIBUTOS CON SU TIPO DE DATO Y RESTR
 
 <img src="./img/S3modeladoImg1.png" width="500"/>
 
-A continuación, encuhttps://web.telegram.org/z/entra ejemplos de sentencias INSERT para cada tabla, la sintaxis de esta sentencia es 
+A continuación, encuentra ejemplos de sentencias INSERT para cada tabla, la sintaxis de esta sentencia es 
 INSERT INTO base_de_datos.nombre_de_la_tabla (LISTA DE ATRIBUTOS) VALUES ( LISTA DE VALORES ). 
 
 La lista de atributos y la lista de valores deben seguir el mismo orden
