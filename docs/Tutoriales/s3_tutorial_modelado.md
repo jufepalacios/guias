@@ -52,7 +52,7 @@ Cada vez que ejecute una sentencia en Workbench en la parte inferior, sección O
  
 Con las bases de datos llenas se puede hacer una primera aproximación a resultado del requerimiento planteado en el tutorial de Uso de tableros de control a partir de consultas al cubo multidimensional
  
-![](./img/requerimiento.png)
+<img src="./img/requerimiento.png" width="800"/>
  
 Para visualizar los resultados de los clientes, seleccionamos por medio de la sentencia SELECT las métricas que el requerimiento nos solicita: Cantidad de productos vendidos y valor total recaudado, así como columnas que nos ayudan a identificar el nombre del producto, la fecha de la orden y el nombre del cliente. Con el FROM le indicamos a la consulta cuáles son las fuentes o tablas de los datos que queremos y en el WHERE agregamos los filtros o condiciones necesarias para que los datos funcionen, en nuestro caso es un filtro de fechas y dos para unir los datos de órdenes, clientes y productos usando sus ID’s
 
