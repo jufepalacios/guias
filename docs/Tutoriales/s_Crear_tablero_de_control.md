@@ -1,4 +1,4 @@
-# Tarea: Crear tablero de control
+# Tutorial: Crear tablero de control
 
 ## Introducción
 
@@ -53,3 +53,9 @@ De esta manera nos dirijimos a MySQL Workbench y creamos una tabla nueva con tod
 
 Con la tabla ya creada podemos consultarla desde Data Studio:
 
+# Cierre
+Al terminar este tutorial, el estudiante está en capacidad de relacionar un modelo dimensional con sentencias SQL y su representación en base de datos
+
+# Más información
+Para mayor información de la creación de tableros de control en Data Studio, consulte el siguiente enlace: https://support.google.com/datastudio/answer/6283323?hl=es 
+Para mayor información sobre SQL consulte: 
