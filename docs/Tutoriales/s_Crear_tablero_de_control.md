@@ -32,4 +32,6 @@ Autorize el acceso a los datos y configure el  conector de la siguiente manera, 
 Una vez conectado podra ver las tablas disponibles para consultas
 
 
-Idealmente en las herramientas de visualización quisieramos poder tomar diferentes tablas y obtener lo necesario para las graficas, sin embargo las herramientas del mercado son muy limitadas en cuanto a carga, manipulación de datos sencilla y 
+Idealmente en las herramientas de visualización quisieramos poder tomar diferentes tablas y obtener lo necesario para las graficas, sin embargo las herramientas del mercado son muy limitadas en cuanto a escalabilidad, manipulación de datos sencilla entre otras. Data Studio en particular no soporta la union de varias tablas por ende es necesario hacer uso de "vistas" SQL o simplemente crear una tabla en la base de datos que tenga la información que deseamos visualizar en Data Studio
+
+De esta manera nos dirijimos a MySQL Workbench y creamos una tabla nueva con todo lo que queremos visualizar 
