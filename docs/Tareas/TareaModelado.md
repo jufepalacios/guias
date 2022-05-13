@@ -1,20 +1,49 @@
-Ahora que sabe cómo crear modelos multidimensionales y SQL básico  
+# Tarea: Modelado de datos y SQL
 
-1.	BASE DE DATOS: A partir del siguiente requerimiento analítico, modelo multidimensional y sentencias SQL. 
-•	CREATE: Defina las sentencias para crear las tablas de cliente y movimiento
-•	INSERT: Defina las sentencias para la inserción de 5 registros en todas las tablas del modelo multidimensional
-•	SELECT: Defina las sentencias para consultar los datos de manera que le permita resolver el requerimiento analítico 
-•	EJECUTAR: Ejecute las sentencias para crear, insertar y consultar la base de datos que refleje el modelo multidimensional dado y muestre los resultados obtenidos
-![]
+# Introducción
 
-2.	MODELO MULTIDIMENSIONAL: Crear el modelo multidimensional para el siguiente caso:
+**Objetivo**
 
-SINIESTROS ALPES 
+Comprender la relación entre un modelo dimensional y su representación en un modelo relacional, lo que se denomina modelo ROLAP. Adicionalmente, fortalecer la competencia de modelar multidimensionalmente a partir de un caso dado.
+
+**¿Para qué?**
+
+Practicar lo aprendido en el tutorial de modelado de datos y SQL y retomar el lenguaje SQL a nivel de creación de objetivos (DDL - _Data Definition Language_ y DML- _Data Manipulation Language_).
+
+**¿Qué necesita?**
+
+1. MySQL Workbench
+2. Modelo multidimensional asociado al proceso de movimientos
+3. Acceso al servidor de base de datos 
+4. Script SQL <a href=''>aquí</a>
+
+# Enunciado
+Ahora que sabe cómo crear modelos multidimensionales y SQL básico, lo que debe hacer en la primera parte, es crear en una base de datos relacional las tablas que representan un modelo dado, poblarlas y consultarlas. En la segunda parte, va a practicar la competencia de modelar con el caso dado. A continuación encuentra el detalle de las actividades a realizar:  
+
+1.	**MODELO ROLAP**: A partir del requerimiento analítico, modelo multidimensional y sentencias SQL que se muestran más adelante, prepare los siguientes entregables. 
+-	**Entregable CREATE**: Defina las sentencias para crear las tablas de cliente y movimiento de acuerdo con el modelo que se presenta.
+-	**Entregable INSERT**: Defina las sentencias para la inserción de 5 registros en todas las tablas del modelo multidimensional.
+-	**Entregable SELECT**: Defina las sentencias para consultar los datos de manera que le permita resolver el requerimiento analítico. 
+-	**Entregable EJECUTAR**: Ejecute las sentencias para crear, insertar y consultar la base de datos que refleje el modelo multidimensional dado y muestre los resultados obtenidos.
+
+| **Tema analítico**                                               | **Análisis requeridos o inferidos**                                                                                                       | **Categoría del análisis (\*)** | **Procesos de negocio** | **Fuentes de datos**                                                    |
+| ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------- | ----------------------------------------------------------------------- |
+| **Movimientos en el inventario de WWI** | Visualizar el número de productos que se movieron en el inventario en un rango de fechas por cliente, proveedor, y/o tipo de transacción | Consultas SQL             | Inventario                  | Movimientos, Tipos de transacción, Proveedores, Clientes y Productos  |
+
+![Modelo moimientos](https://github.com/MISW-4402-Analisis-y-Modelado-de-datos/General/blob/main/Tutoriales/Modelado/Modelo%20movimiento.png)
+
+
+![Sentencias CREATE](https://github.com/MISW-4402-Analisis-y-Modelado-de-datos/General/blob/main/Tutoriales/Modelado/CreateMovimientos.png)
+
+
+2.	**MODELO MULTIDIMENSIONAL**: Proponga un modelo multidimensional para el siguiente caso:
+
+**SINIESTROS ALPES** 
 La secretaria de movilidad de los Alpes lo ha contratado a usted para que lo asesore en la construcción de un almacen de datos (Data Mart), asociado al tema de siniestros (hace referencia a accidentes de tránsito), de la ciudad de los Alpes. Con el fin de validar que este proyecto apoya su plan estratégico, la secretaría, hace énfasis en los siguientes puntos relacionados con su estrategia: 
 
-•	MISION: […] como cabeza del sector Movilidad y autoridad de tránsito y transporte, presta servicios, planea y formula las políticas del sector, generando condiciones de movilidad acordes con las necesidades de la población de los Alpes […] 
-•	OBJETIVO: Uno de sus objetivos es aumentar la cobertura y efectividad de la presencia en vía 
-•	META: Una de las metas que persigue la secretaría es la reducción de siniestros en los cuales hay muertos. 
+-	**MISION**: […] como cabeza del sector Movilidad y autoridad de tránsito y transporte, presta servicios, planea y formula las políticas del sector, generando condiciones de movilidad acordes con las necesidades de la población de los Alpes […] 
+-	**OBJETIVO**: Uno de sus objetivos es aumentar la cobertura y efectividad de la presencia en vía 
+-	**META**: Una de las metas que persigue la secretaría es la reducción de siniestros en los cuales hay muertos. 
 
 Asociado a un siniestro se tiene una descripción del mismo que incluye: Fecha, dirección, causa (exceso de velocidad, alcoholemia, etc.), gravedad (solo daños, con heridos, con muertos) y características del entorno. El entorno hace referencia a elementos como si la vía estaba lisa – porque había llovido, si había cerca un hueco, si es muy oscuro el lugar, entre otros. Adicionalmente, se registra información de los actores involucrados en el mismo, de los cuales se tiene el tipo de documento, número de documento, edad, sexo, tipo de actor (peatón, ciclista, motociclista, pasajero o conductor de carro), y el estado (herido valorado, herido hospitalizado, muerto). Finalmente, se tiene información de los vehículos involucrados de los cuales se tiene la placa, la marca (Renault, Mazda, etc.), la clase (automóvil, bus, buseta, motocicleta) y el servicio (público colectivo, público individual, privado, diplomático). 
 
