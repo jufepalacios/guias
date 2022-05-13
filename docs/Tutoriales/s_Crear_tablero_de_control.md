@@ -21,20 +21,35 @@ Visualizar los resultados
 ## Enunciado
 Dirijase al link de data studio, de click en "USE IT FOR FREE" e inicie sesión en su cuenta gmail.
 
+<img src="./img/DS1.png" width="500"/>
+
 Luego de click en Informe vacio y diligencie los datos que le solicita asi como preferencias de notificaciones. Ej. Region: Colombia
+
+<img src="./img/DS2.png" width="500"/>
 
 Cambie el nombre del tablero en la esquina superior izquierda
 
+<img src="./img/DS3.png" width="500"/>
+
 En la barra de herramientas de clic en añadir datos, en la barra de busqueda que aparece digite mysql y seleccione el conector de MySQL que observa en la siguiente imagen
+
+<img src="./img/DS4.png" width="500"/>
+
+<img src="./img/DS5.png" width="500"/>
 
 Autorize el acceso a los datos y configure el  conector de la siguiente manera, use las credenciales de acceso al servidor dadas en la semana 1 del curso y conectese a la base de datos que modela su bodega de datos
 
+<img src="./img/DS6.png" width="500"/>
+
 Una vez conectado podra ver las tablas disponibles para consultas
 
+<img src="./img/DS7.png" width="500"/>
 
 Idealmente en las herramientas de visualización quisieramos poder tomar diferentes tablas y obtener lo necesario para las graficas, sin embargo las herramientas del mercado son muy limitadas en cuanto a escalabilidad, manipulación de datos sencilla entre otras. Data Studio en particular no soporta la union de varias tablas por ende es necesario hacer uso de "vistas" SQL o simplemente crear una tabla en la base de datos que tenga la información que deseamos visualizar en Data Studio
 
 De esta manera nos dirijimos a MySQL Workbench y creamos una tabla nueva con todo lo que queremos visualizar haciendo uso de las sentencias CREATE TABLE y SELECT
+
+<img src="./img/DS8.png" width="500"/>
 
 Con la tabla ya creada podemos consultarla desde Data Studio:
 
