@@ -53,6 +53,9 @@ De esta manera nos dirijimos a MySQL Workbench y creamos una tabla nueva con tod
 
 Con la tabla ya creada podemos consultarla desde Data Studio:
 
+<img src="./img/DS9.png" width="500"/>
+
+
 # Cierre
 Al terminar este tutorial, el estudiante está en capacidad de relacionar un modelo dimensional con sentencias SQL y su representación en base de datos
 
