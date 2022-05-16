@@ -19,11 +19,11 @@ Visualizar los resultados y facilitar la interacción de los tomadores de decisi
 2. Acceso al servidor de base de datos
 
 ## Enunciado
-Dirijase al link de data studio, de clic en "USE IT FOR FREE" e inicie sesión en su cuenta gmail.
+Diríjase al link de data studio, de clic en "USE IT FOR FREE" e inicie sesión en su cuenta gmail.
 
 <img src="./img/DS1.png" width="800"/>
 
-Luego de clic en Informe vacio y diligencie los datos que le solicita asi como preferencias de notificaciones. Ej. Region: Colombia
+Luego de clic en Informe vacío y diligencie los datos que le solicita asi como preferencias de notificaciones. Por ejemplo, Region: Colombia
 
 <img src="./img/DS2.png" width="800"/>
 
@@ -31,21 +31,21 @@ Cambie el nombre del tablero en la esquina superior izquierda
 
 <img src="./img/DS3.png" width="800"/>
 
-En la barra de herramientas de clic en añadir datos, en la barra de busqueda que aparece digite mysql y seleccione el conector de MySQL que observa en la siguiente imagen
+En la barra de herramientas de clic en añadir datos. En la barra de búsqueda que aparece, digite mysql y seleccione el conector de MySQL que observa en la siguiente imagen
 
 <img src="./img/DS4.png" width="800"/>
 
 <img src="./img/DS5.png" width="800"/>
 
-Autorize el acceso a los datos y configure el  conector de la siguiente manera, use las credenciales de acceso al servidor dadas en la semana 1 del curso y conectese a la base de datos que modela su bodega de datos
+Autorize el acceso a los datos y configure el  conector de la siguiente manera, use las credenciales de acceso al servidor dadas en la semana 1 del curso y conéctese a la base de datos que modela su bodega de datos.
 
 <img src="./img/DS6.png" width="800"/>
 
-Una vez conectado podra ver las tablas disponibles para consultas
+Una vez conectado podrá ver las tablas disponibles para consultas
 
 <img src="./img/DS7.png" width="800"/>
 
-Idealmente en las herramientas de visualización quisieramos poder tomar diferentes tablas y obtener lo necesario para las graficas, sin embargo las herramientas del mercado son muy limitadas en cuanto a escalabilidad, manipulación de datos sencilla entre otras. Data Studio en particular no soporta la union de varias tablas por ende es necesario hacer uso de "vistas" SQL o simplemente crear una tabla en la base de datos que tenga la información que deseamos visualizar en Data Studio
+Idealmente en las herramientas de visualización quisieramos poder tomar diferentes tablas y obtener lo necesario para las gráficas, sin embargo las herramientas del mercado son muy limitadas en cuanto a escalabilidad, manipulación de datos sencilla entre otras. Data Studio en particular no soporta la unión de varias tablas, por lo cual es necesario hacer uso de "vistas" SQL o simplemente crear una tabla en la base de datos que tenga la información que deseamos visualizar en Data Studio. Recuerde que si se trata de una vista, la información se actualiza de forma automática cada vez que se agregan filas a las tablas originales. Sin embargo, este comportamiento no ocurre si se tiene una tabla y será necesario recrearla cada vez que se ingresen nuevos datos.
 
 De esta manera nos dirijimos a MySQL Workbench y creamos una tabla nueva con todo lo que queremos visualizar haciendo uso de las sentencias CREATE TABLE y SELECT
 
@@ -61,33 +61,33 @@ Para revisar y/o modificar la fuente de datos seleccionela de la lista en el cos
 
 En el costado izquierdo superior encuentra <i>Editar la conexión</i> donde puede cambiar la IP, puerto, credenciales y tabla.
 
-En el costado superior derecho encuentra el tiempo de actualización de datos que puede modificar, opciones para agregar campos y el boton de guardar los cambios "HECHO". En el costado izquierdo se listan los campos reconocidos de la tabla, revise los tipos de datos pues pueden no ser correctos, por ejemplo el Valor_total lo reconoce como un tipo de dato Fecha
+En el costado superior derecho encuentra el tiempo de actualización de datos que puede modificar, opciones para agregar campos y el botón de guardar los cambios "HECHO". En el costado izquierdo se listan los campos reconocidos de la tabla, revise los tipos de datos pues pueden no ser correctos, por ejemplo el Valor_total lo reconoce como un tipo de dato Fecha.
 
 <img src="./img/DS11.png" width="800"/>
 
-Para cambiar el tipo de datos damos clic en el menu desplegable de tipos de datos y seleccionamos el nuevo tipo
+Para cambiar el tipo de dato, damos clic en el menú desplegable de tipos de datos y seleccionamos el nuevo tipo
 
 <img src="./img/DS12.png" width="800"/>
 
-El primer paso es el banner del tablero, no es obligatorio pero es aconsejable tomar en cuenta aspectos de diseño como este. Para el banner vamos a agregar un rectangulo, dando clic en el icono de figuras en la barra de herramientas superior y seleccionando el rectangulo
+El primer paso es el banner del tablero, no es obligatorio pero es aconsejable tomar en cuenta aspectos de diseño como este. Para el banner vamos a agregar un rectángulo, dando clic en el ícono de figuras en la barra de herramientas superior y seleccionando el rectángulo
 
 <img src="./img/DS13.png" width="800"/>
 
-Luego arrastramos en el area blanca dónde queremos que este la figura
+Luego arrastramos en el área blanca donde queremos que esté la figura.
 
 <img src="./img/DS14.png" width="800"/>
 
-Una vez creada la figura en el costado derecho aparece un menú de configuración, en este caso podemos personalizar temas de diseño como el color
+Una vez creada la figura, en el costado derecho aparece un menú de configuración, en este caso podemos personalizar temas de diseño como el color
 
 <img src="./img/DS15.png" width="800"/>
 
-Ahora agregamos el logo de Wide World Importers, para lo cual le damos clic al icono de imagenes y luego clic en la opción que desee
+Ahora agregamos el logo de Wide World Importers, para lo cual le damos clic al ícono de imaágenes y luego clic en la opción que desee
 
 <img src="./img/DS16.png" width="800"/>
 
-Hay herramientas de diseño gratuitas que puede usar, por ejemplo queremos una paleta de colores en relación con los logos del las empresas, podemos usar un creador de paletas como: https://color.adobe.com/es/create/color-wheel en las que vemos varias opciones segùn la teoría del color
+Hay herramientas de diseño gratuitas que puede usar, por ejemplo queremos una paleta de colores en relación con los logos del las empresas, podemos usar un creador de paletas como: https://color.adobe.com/es/create/color-wheel en las que vemos varias opciones según la teoría del color.
 
-Ahora agregamos el titulo, debe ser muy concistente con el requerimiento analítico que estamos desarrollando. Para esto de clic en el icono de texto en la barra de herramientas
+Ahora agregamos el título, debe ser muy concistente con el requerimiento analítico que estamos desarrollando. Para esto de clic en el icono de texto en la barra de herramientas
 
 <img src="./img/DS17.png" width="800"/>
 
@@ -95,7 +95,7 @@ Lo siguiente son las fechas de los datos, que vamos a poner en el costado superi
 
 <img src="./img/DS18.png" width="800"/>
 
-En el menú de configuración vamos a econtrar una nueva ventana <i>DATOS</i> subdividido en configuración y en datos disponibles, estos datos son los campos presentes en la fuente de datos. Para obtener la fecha inicial de los datos, arrastramos el campo Fecha a Dimensión de periodo
+En el menú de configuración vamos a encontrar una nueva ventana <i>DATOS</i> subdividido en configuración y en datos disponibles, estos datos son los campos presentes en la fuente de datos. Para obtener la fecha inicial de los datos, arrastramos el campo Fecha a Dimensión de periodo
 
 <img src="./img/DS19.png" width="800"/>
 
@@ -107,7 +107,7 @@ En el recuadro que aparece le damos clic en CREAR CAMPO
 
 <img src="./img/DS21.png" width="800"/>
 
-En el siguiente recuadro le damos un nombre a la nueva metrica y el espacio que corresponde a "Fórmula" usamos la función MIN (MAX, SUM, AVG) para obtener los valores que deseamos. Luego damos clic en APLICAR
+En el siguiente recuadro le damos un nombre a la nueva métrica y el espacio que corresponde a "Fórmula" usamos la función MIN (MAX, SUM, AVG) para obtener los valores que deseamos. Luego damos clic en APLICAR
 
 <img src="./img/DS22.png" width="800"/>
 
@@ -115,7 +115,7 @@ Hacemos un proceso similar para la fecha final de manera que se obtenga algo sim
 
 <img src="./img/DS23.png" width="800"/>
 
-Para añadir filtros damos clic en <i>Añadir un control</i> y clic en Lista desplegable y ubicamos el elemento en el area de trabajo. En el menú de configuración lateral seleccione el campo por el que se va a filtrar, en el ejemplo seleccionamos ciudad.
+Para añadir filtros damos clic en <i>Añadir un control</i> y clic en Lista desplegable y ubicamos el elemento en el área de trabajo. En el menú de configuración lateral seleccione el campo por el que se va a filtrar, en el ejemplo seleccionamos ciudad.
 
 <img src="./img/DS24.png" width="800"/>
 
@@ -127,7 +127,7 @@ Pero si agregamos una Métrica en la lista vamos a ver los valores correspondien
 
 <img src="./img/DS26.png" width="800"/>
 
-Para la primer gráfica queremos ver el Valor total y cantidad de productos vendidos geográficamente. Damos clic en Añadir un gráfico y luego en Mapa de burbujas en la sección de Google Maps, ubicamos el elemento en el espacio de trabajo 
+Para la primera gráfica queremos ver el Valor total y cantidad de productos vendidos geográficamente. Damos clic en Añadir un gráfico y luego en Mapa de burbujas en la sección de Google Maps, ubicamos el elemento en el espacio de trabajo 
 
 <img src="./img/DS27.png" width="800"/>
 
@@ -147,7 +147,7 @@ Para el tercer diagrama, queremos ver la cantidad de cada producto comprada por 
 
 <img src="./img/DS31.png" width="800"/>
 
-En el menú de configuración, ponemos campo cliente como Dimension, producto como dimension de desglose y en metrica la cantidad
+En el menú de configuración, ponemos campo cliente como Dimensión, producto como dimensión de desglose y en métrica la cantidad
 
 <img src="./img/DS32.png" width="800"/>
 
@@ -155,7 +155,7 @@ Para el cuarto diagrama, queremos ver cuánto vende cada empleado del total vend
 
 <img src="./img/DS33.png" width="800"/>
 
-En el menu de configuración ponemos en dimension el empleado y en metrica el valor total
+En el menu de configuración ponemos en dimension el empleado y en métrica el valor total
 <img src="./img/DS34.png" width="800"/>
 
 Otro filtro importante es el de las fechas, par agregarlo damos clic en Añadir un control y luego clic en Filtro por periodo, no es necesario configurarlo
@@ -163,7 +163,7 @@ Otro filtro importante es el de las fechas, par agregarlo damos clic en Añadir 
 <img src="./img/DS35.png" width="800"/>
 
 
-Recuerde agregar titulos por gráfica, las leyendas y todo aquello que se abordo en la semana anterior sobre buenas practicas 
+Recuerde agregar titulos por gráfica, las leyendas y todo aquello que se abordó en esta temática de tableros de control sobre buenas prácticas. 
 
 # Cierre
 Al terminar este tutorial, el estudiante está en capacidad de crear tableros de control en Data Studio
