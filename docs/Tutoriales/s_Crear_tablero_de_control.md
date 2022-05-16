@@ -1,17 +1,17 @@
-# Tutorial: Crear tablero de control
+# Tutorial: Crear tableros de control
 
 ## Introducción
 
 **Objetivo**
 
-En este tutorial aprenderá a crear un tablero de control usando Data Studio
+En este tutorial aprenderá a crear un tablero de control usando Google Data Studio
 
 **¿Qué construirá?**
 - Un tablero de control
 
 **¿Para qué?**
 
-Visualizar los resultados
+Visualizar los resultados y facilitar la interacción de los tomadores de decisiones
 
 **¿Qué necesita?**
 
