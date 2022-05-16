@@ -55,6 +55,35 @@ Con la tabla ya creada podemos consultarla desde Data Studio:
 
 <img src="./img/DS9.png" width="500"/>
 
+<img src="./img/DS10.png" width="800"/>
+
+<img src="./img/DS11.png" width="800"/>
+
+<img src="./img/DS12.png" width="800"/>
+<img src="./img/DS13.png" width="800"/>
+<img src="./img/DS14.png" width="800"/>
+<img src="./img/DS15.png" width="800"/>
+<img src="./img/DS16.png" width="800"/>
+<img src="./img/DS17.png" width="800"/>
+<img src="./img/DS18.png" width="800"/>
+<img src="./img/DS19.png" width="800"/>
+<img src="./img/DS20.png" width="800"/>
+<img src="./img/DS21.png" width="800"/>
+<img src="./img/DS22.png" width="800"/>
+<img src="./img/DS23.png" width="800"/>
+<img src="./img/DS24.png" width="800"/>
+<img src="./img/DS25.png" width="800"/>
+<img src="./img/DS26.png" width="800"/>
+<img src="./img/DS27.png" width="800"/>
+<img src="./img/DS28.png" width="800"/>
+<img src="./img/DS29.png" width="800"/>
+<img src="./img/DS30.png" width="800"/>
+<img src="./img/DS31.png" width="800"/>
+<img src="./img/DS32.png" width="800"/>
+<img src="./img/DS33.png" width="800"/>
+<img src="./img/DS34.png" width="800"/>
+<img src="./img/DS35.png" width="800"/>
+
 
 # Cierre
 Al terminar este tutorial, el estudiante está en capacidad de relacionar un modelo dimensional con sentencias SQL y su representación en base de datos
