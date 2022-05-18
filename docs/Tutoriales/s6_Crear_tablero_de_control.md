@@ -49,7 +49,7 @@ Idealmente en las herramientas de visualización quisieramos poder tomar diferen
 
 De esta manera nos dirijimos a MySQL Workbench y creamos una tabla nueva con todo lo que queremos visualizar haciendo uso de las sentencias CREATE TABLE y SELECT
 
-<img src="./img/DS8.png" width="800"/>
+<img src="./img/DS8_2.png" width="800"/>
 
 Con la tabla ya creada podemos consultarla desde Data Studio, seleccionandola y luego dando clic en <i>Añadir</i>
 
