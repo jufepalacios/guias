@@ -27,7 +27,7 @@ Note que para este proceso de negocio, las dimensiones Producto, Cliente y Fecha
 
 
 Sobre los resultados del entendimiento de datos
-- A
+- 2 para proveedor: explicitas para hacer transformaciones
 - B
 - C
 - D
