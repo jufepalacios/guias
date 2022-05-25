@@ -20,6 +20,7 @@ a. **Escenario 1.** Envían todos los clientes
 
 b. **Escenario 2.** Envían la última versión reportada del cliente y la versión actual, para los clientes que tuvieron algún cambio desde el último reporte hecho a la bodega.
 
+LEIDY: AJUSTAR EL MODELO, REVISAR NOMBRES DE TABLAS Y COLOCAR EL CORRECTO. SUBIR LOS ARCHIVOS CSV PARA REALIZAR LA TAREA.
 ![](./Img/ETLModeloConHistoria.png)
 
 Es así como para practicar con esos dos escenarios, debe crear dos nuevas tablas para ese manejo de clientes y poblarlas con el ETL que va a desarrollar:
