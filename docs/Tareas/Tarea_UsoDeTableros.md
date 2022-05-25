@@ -18,7 +18,7 @@ World Wide Importers está muy interesado en resolver el siguiente requerimiento
 
 | **Tema analítico**                                               | **Análisis requeridos o inferidos**                                                                                                       | **Categoría del análisis (\*)** | **Procesos de negocio** | **Fuentes de datos**                                                    |
 | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------- | ----------------------------------------------------------------------- |
-| **Movimientos en el inventario de WWI** | Visualizar el número de productos que se movieron en el inventario en un rango de fechas por cliente, proveedor, y/o tipo de transacción | Consultas SQL             | Inventario                  | Movimientos, Tipos de transacción, Proveedores, Clientes y Productos  |
+| **Movimientos en el inventario de WWI** | Visualizar el número de productos que se movieron en el inventario en un rango de fechas por cliente, proveedor, y/o tipo de transacción y mostrar la información de proveedores, cliente y tipo de transacción| Tablero de control | Inventario                  | Movimientos, Tipos de transacción, Proveedores, Clientes y Productos  |
 
 
 Es así como lo contrató una vez más para desarrollar los siguientes entregables.
