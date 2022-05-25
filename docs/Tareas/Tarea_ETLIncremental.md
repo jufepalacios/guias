@@ -15,13 +15,17 @@ Dentro  de  procesos  de  ETL,  es común  que se  presenten  dimensiones que pu
 ## **Enunciado**
 A partir del modelo dimensional que se presenta a continuación, en el cual se muestra el cambio con respecto a lo trabajado hasta este punto, a nivel de la dimensión Cliente, debe diseñar e implementar el proceso ETL para la nueva dimensión llamada "Cliente_Historia". En esa dimensión, el atributo categoría puede cambiar y se ha decidido utilizar el **manejo de historia tipo 2**.
 En este proceso ETL se identifican dos maneras de reportar la información por parte del sistema transaccional:
+
 a. **Escenario 1.** Envían todos los clientes
+
 b. **Escenario 2.** Envían la última versión reportada del cliente y la versión actual, para los clientes que tuvieron algún cambio desde el último reporte hecho a la bodega.
 
-![](./imagenes/S210InfrestructuraVisible.png)
+![](./imagenes/ETLModeloConHistoria.png)
 
 Es así como para practicar con esos dos escenarios, debe crear dos nuevas tablas para ese manejo de clientes y poblarlas con el ETL que va a desarrollar:
+
 a. **ClienteHistoria_Escenario 1**, para la cual debe utilizar la información de la tabla **clienteHistoria** y la de este archivo:FALTAARCHIVO1
+
 b. **ClienteHistoria_Escenario 2**, para la cual debe utilizar la información de la tabla **clienteHistoria** y la de este archivo:FALTAARCHIVO2
 
 El supuesto que se tiene en este punto es que se hizo el proceso de entendimiento de datos sobre el archivo de clientes, se definieron las transformaciones requeridas y ahora está listo para transformar y cargar la información a la nueva tabla, guardando la información histórica del atributo categoría del cliente.
