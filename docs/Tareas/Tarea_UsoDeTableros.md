@@ -8,7 +8,7 @@
 
 ¿Qué necesita?
     
-    1. [Google data studio] (https://datastudio.google.com)
+    1. Herramienta para desarrollar tableros de control -[Google data studio](https://datastudio.google.com)
 
     2. Acceso al servidor de base de datos
 ## **Enunciado**
