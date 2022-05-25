@@ -1,9 +1,18 @@
-# **Construir un ETL con historia**
-## **Objetivo**
-- Modelar multidimensionalmente la historia de atributos de las dimensiones.  
-- Analizar y transformar las nuevas fuentes de datos suministradas para los análisis.
-- Desarrollar la carga de los nuevos datos en la BD con el modelo multidimensional ajustado.  
-## **Instrucciones**
+# **Tarea: Construir un ETL incremental**
+## **Introducción**
+### **Objetivo**
+- Usar PySpark para crear ETLs con historia en los atributos de las dimensiones.  
+
+### **¿Para qué?**
+Dentro  de  procesos  de  ETL,  es común  que se  presenten  dimensiones que puedan  presentar cambios a través del tiempo para las cuales es necesario tener un plan de manejo de historia. Por lo tanto, es esencial saber cómo realizar este manejo en las distintas herramientas de ETLs.
+
+### **¿Qué necesita?**
+1. Python 3 con pip instalado
+2. JupyterLabs
+3. Paquetes: Pyspark (3.0.1) y pandas (1.2.1)
+5. Servidor SQL con base de datos multidimensional "WWImportersDWH" que contenga la dimension "cliente_Historia"
+
+## **Enunciado**
 
 ![](./imagenes/S210InfrestructuraVisible.png)
 
