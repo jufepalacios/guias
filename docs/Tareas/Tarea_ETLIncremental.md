@@ -13,53 +13,18 @@ Dentro  de  procesos  de  ETL,  es común  que se  presenten  dimensiones que pu
 5. Servidor SQL con base de datos multidimensional "WWImportersDWH" que contenga la dimension "cliente_Historia"
 
 ## **Enunciado**
+A partir del modelo dimensional que se presenta a continuación, en el cual se muestra el cambio con respecto a lo trabajado hasta este punto, a nivel de la dimensión Cliente, debe diseñar e implementar el proceso ETL para la nueva dimensión llamada "Cliente_Historia". En esa dimensión, el atributo categoría puede cambiar y se ha decidido utilizar el **manejo de historia tipo 2**.
+En este proceso ETL se identifican dos maneras de reportar la información por parte del sistema transaccional:
+a. **Escenario 1.** Envían todos los clientes
+b. **Escenario 2.** Envían la última versión reportada del cliente y la versión actual, para los clientes que tuvieron algún cambio desde el último reporte hecho a la bodega.
 
 ![](./imagenes/S210InfrestructuraVisible.png)
 
-En esta fase del proyecto, a partir de algunos ejemplos de análisis requeridos, aclaraciones de la organización sobre los datos compartidos inicialmente, de nuevas fuentes de datos proporcionadas, del modelo multidimensional propuesto inicialmente, Infraestructura Visible considera que están listos para iniciar un trabajo en grupos de máximo tres personas para realizar un proceso de ETL incremental con los nuevos datos y con los ajustes que tuvo que hacer al modelo, en particular relacionados con el manejo de historia de los atributos de las dimensiones. El detalle de los productos a entregar, los encuentra en la sección entregables.
+Es así como para practicar con esos dos escenarios, debe crear dos nuevas tablas para ese manejo de clientes y poblarlas con el ETL que va a desarrollar:
+a. **ClienteHistoria_Escenario 1**, para la cual debe utilizar la información de la tabla **clienteHistoria** y la de este archivo:FALTAARCHIVO1
+b. **ClienteHistoria_Escenario 2**, para la cual debe utilizar la información de la tabla **clienteHistoria** y la de este archivo:FALTAARCHIVO2
 
-A nivel de trabajo en grupo, dada la experiencia que la empresa tiene en este estilo de proyectos, le sugiere lo siguiente:
+El supuesto que se tiene en este punto es que se hizo el proceso de entendimiento de datos sobre el archivo de clientes, se definieron las transformaciones requeridas y ahora está listo para transformar y cargar la información a la nueva tabla, guardando la información histórica del atributo categoría del cliente.
 
-***Realizar una reunión de inicio*** para definir la forma como se van a organizar.
-En particular esta semana en esa reunión deberían:
-1.	Registrar el grupo en el excel definido para esta actividad
-2.	Definir los canales de comunicación que tendrá el grupo
-3.	Compartir lo construido en la primera iteración del curso
-4.	Definir la forma de organizarse para las tareas de esta semana de tal manera que todos aporten de forma equitativa al logro de las mismas
-5.	Definir por los menos dos espacios adicionales en la semana para ver el avance de las tareas asignadas y hacer ajustes si se requiere
-6.	Nombrar un representante por semana, quién debe ser distinto cada nueva semana.
+**Pregunta de interés: ¿Qué ajustes habrá que realizar a los pasos de transformar y cargar la tabla de hechos en el proceso de ETL básico, desarrrollado previamente? ** 
 
-***Nombrar a un representante por semana*** Quien debe estar pendiente de:
-1.	Revisar detalladamente lo que se solicita en las entregas de la semana
-2.	Hacer un inventario de los recursos existentes para realizar las entregas
-3.	Liderar las dos reuniones que se hagan durante la semana
-4.	Recopilar las dudas del grupo y socializarlas por slack
-5.	Garantizar que las dudas son resueltas por slack o durante la sesión sincrónica
-6.	Garantizar que uno de los miembros hace las entregas de la semana
-
-## **Recursos requeridos**
-En el siguiente repositorio puede encontrar los archivos de datos requeridos para el desarrollo de esta tarea, los datos de vuelos comprenden los periodos de tiempo entre 2010 y 2016 y la información de aeropuertos es de todos aquellos construidos antes de 2016. Así mismo, Infraestructura visible comenta que la infraestructura de los aeropuertos ha cambiado en los últimos años y esto se ve reflejado en los datos.
-
-Los datos y la información asociada a los mismos está disponible en este [enlace](https://github.com/MIAD-Modelo-Datos/Recursos/tree/main/Infraestructura%20visible/Etapa%201)
-
-***Datos suministrados***
-- aeropuertos.csv
-- vuelos.csv
-- Ajustes a los diccionarios de datos
-- Aclaraciones relacionadas con los comentarios realizados en la tarea de perfilamiento de datos.
-- Revise y utilice los archivos que considere necesarios diferentes a los anteriores
-
-
-***Tecnología***
-
-Recuerden que está el tutorial de “[Construcción de ETL con historia](https://www.coursera.org/learn/modelado-de-datos-y-etl/ungradedLab/BqgON/tutorial-construccion-etl-con-historia)” , que será de utilidad para el desarrollo de esta tarea. Este tutorial utiliza la tecnología Pyspark.
-
-Adicionalmente, se le sugiere utilizar una herramienta como [GenMyModel](https://www.genmymodel.com/) para dibujar el modelo y generar las sentencias de creación de la base de datos. Este tipo de herramientas facilita el mantenimiento de los modelos de datos.
-## **Recomendaciones de los entregables**
-
-Incluir en la entrega la dirección (link) de la wiki donde registró lo solicitado en esta tarea con las actividades realizadas dentro de las fechas establecidas
-
-## **Preguntas o más información**
-
-- Las preguntas que surjan en el desarrollo de esta tarea pueden registrarlas en el slack del curso
-- Recuerde que tiene a su disposición el tutorial de Creación y manejo de la Wiki [aquí](https://misovirtual.virtual.uniandes.edu.co/codelabs/wiki-github/index.html?index=..%2F..ETL#0)
