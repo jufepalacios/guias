@@ -6,6 +6,10 @@
 
 ![](./imagenes/S210InfrestructuraVisible.png)
 
+| **Tema analítico**                                               | **Análisis requeridos o inferidos**                                                                                                       | **Categoría del análisis (\*)** | **Procesos de negocio** | **Fuentes de datos**                                                    |
+| ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------- | ----------------------------------------------------------------------- |
+| **Movimientos en el inventario de WWI** | Visualizar el número de productos que se movieron en el inventario en un rango de fechas por cliente, proveedor, y/o tipo de transacción | Consultas SQL             | Inventario                  | Movimientos, Tipos de transacción, Proveedores, Clientes y Productos  |
+
 
 Infraestructura visible de forma conjunta con un grupo de consultores de inteligencia de negocios, siguió trabajando en la especificación de los primeros análisis que quiere que usted realice. En particular, en esta entrega le solicita:
 1.	Mejorar el perfilamiento de las fuentes de datos a utilizar. Esta mejora incluye completar o corregir de acuerdo con lo requerido para realizar los análisis propuestos.
