@@ -1,8 +1,17 @@
-# **Mi primer tablero de control**
-## **Objetivo**
-- Analizar fuentes de datos (perfilamiento de datos) relacionadas con el proyecto del curso.
-- Construir un tablero de control dadas fuentes de datos en formato "csv"  o xls.
-## **Instrucciones**
+# **Tarea: Crear un tablero de control**
+## **Introducción**
+### Objetivo
+- Construir un tablero de control a partir de los datos almacenados en una base de datos relacional con el esquema ROLAP.
+
+¿Para qué?
+- Visualizar los resultados del proyecto de datos y facilitar la interacción de los tomadores de decisiones
+
+¿Qué necesita?
+    
+    1. Google data studio: https://datastudio.google.com
+
+    2. Acceso al servidor de base de datos
+## **Enunciado**
 
 ![](./imagenes/S210InfrestructuraVisible.png)
 
