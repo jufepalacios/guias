@@ -13,7 +13,7 @@
     2. Acceso al servidor de base de datos
 ## **Enunciado**
 
-World Wide Importers está muy interesado en resolver el siguiente requerimiento analítico por medio del uso de tableros de control
+World Wide Importers está muy interesado en resolver el siguiente requerimiento analítico por medio del uso de un tablero de control
 
 
 | **Tema analítico**                                               | **Análisis requeridos o inferidos**                                                                                                       | **Categoría del análisis (\*)** | **Procesos de negocio** | **Fuentes de datos**                                                    |
@@ -23,33 +23,13 @@ World Wide Importers está muy interesado en resolver el siguiente requerimiento
 
 Es así como lo contrató una vez más para desarrollar los siguientes entregables.
 
+1. **Entregable 1: Mock-up del tablero de control.** Diseña el tablero de control que piensas implementar. Para ello revisa los elementos gráficos que te brinda Google Data Studio, busca ejemplos de tableros de control. No olvides pensar en para quién estás haciendo el tablero de control y el requerimiento que se quiere resolver. 
+2. **Entregable 2: Modo edición del tablero de control.** Una vez tenga claridad del tablero de control que quieres construir, estará listo para su desarrollo. Recuerda darle identidad de la empresa al tablero que desarrolles.
 
-2.	Implementar uno de los análisis propuestos por el cliente. En este punto debe agrupar más de dos de los análisis propuestos, que considere de forma conjunta, aportan al análisis global que se quiere realizar.
-    - Explicar cómo el resultado del análisis soporta los objetivos de la organización de análisis. Defina la organización a la cual va a orientar los análisis.
-    - Describir dos decisiones o acciones que puede tomar un analista en el negocio con la información brindada en el análisis implementado. 
-    - Indicar 2 nuevas preguntas que son posibles de contestar con el tablero de control construido.
-3.	Enriquecer el análisis e incluir KPIs que considere pueden ser útiles para tomadores de decisión que lo utilicen. 
-4.	Preparar un video de máximo 5 minutos, para la junta directiva de la empresa donde presente la solución propuesta en esta etapa del proyecto. 
-
-## **Recursos requeridos**
-
-En el siguiente repositorio puede encontrar los archivos de datos requeridos para el desarrollo de esta tarea, los datos de vuelos comprenden los periodos de tiempo entre 2010 y 2013 y la información de aeropuertos es de todos aquellos construidos antes de 2013 [click aquí](https://github.com/MIAD-Modelo-Datos/Recursos/tree/main/Infraestructura%20visible/Etapa%201)
-
-***Datos suministrados***
-
-- vuelos.csv
-- aeropuertos.csv
-- Revise y utilice los archivos que considere necesarios diferentes a los anteriores
-
-***Tecnología***
-
-Recuerde que está el tutorial de “Construcción de un tablero de control”, que será de utilidad para el uso de la tecnología utilizada en esta tarea.
-- PowerBI
-- PySpark
+En los videos y lecturas de esta semana, encuentras lo que debes tener en cuenta para que tus entregables tengan la calidad esperada.
 
 ## **Recomendaciones de los entregables**
 - Incluir en la entrega la dirección (link) de la wiki donde registró lo solicitado en esta tarea con las actividades realizadas dentro de las fechas establecidas
 
 ## **Preguntas o más información**
 - Las preguntas que surjan en el desarrollo de esta tarea pueden registrarlas en el slack del curso
-- Recuerde que tiene a su disposición el tutorial de Creación y manejo de la Wiki [aquí](https://misovirtual.virtual.uniandes.edu.co/codelabs/wiki-github/index.html?index=..%2F..ETL#0): 
