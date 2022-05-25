@@ -31,5 +31,6 @@ b. **ClienteHistoria_Escenario 2**, para la cual debe utilizar la información d
 
 El supuesto que se tiene en este punto es que se hizo el proceso de entendimiento de datos sobre el archivo de clientes, se definieron las transformaciones requeridas y ahora está listo para transformar y cargar la información a la nueva tabla, guardando la información histórica del atributo categoría del cliente.
 
-**Pregunta de interés: ¿Qué ajustes habrá que realizar a los pasos de transformar y cargar la tabla de hechos en el proceso de ETL básico, desarrrollado previamente? ** 
+**Pregunta de interés:**
+**¿Qué ajustes habrá que realizar a los pasos de transformar y cargar la tabla de hechos en el proceso de ETL básico, desarrrollado previamente?** 
 
