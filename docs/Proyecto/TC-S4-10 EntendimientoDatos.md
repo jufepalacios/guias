@@ -21,7 +21,7 @@ Recuerde que la exploración de los datos depende de los objetivos que tenga el 
 2.	**Análisis 2:** ¿Qué departamento de Colombia tiene mayor número de sillas salientes desaprovechadas en un año o mes de un año específico (e.g, 2015)?
 3.	**Análisis 3:** ¿Qué aeropuerto representa mayor exportación internacional en términos de carga?
 4.	**Análisis 4:** Top 3 de aeropuertos nacionales que podrían reducir su presupuesto en aviones debido a que no transportan un mínimo del 50% de la capacidad que tienen en carga.
-5.	Análisis 5: ¿Qué aeropuertos están en centros poblados donde la población de mujeres es mayor a la de hombres, con un PIB, el año de análisis, superior al promedio del Departamento donde está el centro poblado y donde el número de vuelos por mes de un año particular está por debajo del promedio nacional?
+5.	**Análisis 5:** ¿Qué aeropuertos están en centros poblados donde la población de mujeres es mayor a la de hombres, con un PIB, el año de análisis, superior al promedio del Departamento donde está el centro poblado y donde el número de vuelos por mes de un año particular está por debajo del promedio nacional?
 
 A partir de lo anterior, los consultores de BI construyeron la siguiente tabla donde se encuentran los análisis identificados y los datos requeridos para lograr los objetivos de esta tarea, cada integrante del grupo debe elegir un análisis distinto para el desarrollo del proyecto a lo largo del curso
 
