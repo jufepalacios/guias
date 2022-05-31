@@ -15,7 +15,7 @@ Infraestructura visible de forma conjunta con un grupo de consultores de intelig
 
 3.  **Entregable 3- Conclusión del entendimiento de datos:** Valide y documente si es posible realizar los análisis solicitados, si debe hacer ajustes en la forma como han sido planteados o si requiere de información adicional para el desarrollo de los mismos.  
 
-Recuerde que la exploración de los datos depende de los objetivos que tenga el proyecto de analítica. Es así como Infraestructura Visible le comparte los análisis que en este momento está interesada en responder:
+Recuerde que la exploración de los datos depende de los objetivos que tenga el proyecto de analítica. Es así como Infraestructura Visible le comparte ejemplos de análisis que en este momento está interesada en responder:
 
 1.	**Análisis 1:** ¿Cuántos pasajeros salieron de Medellín a Cali durante temporadas altas? (e.g., Semana santa). En general quiere aplicar este análisis a diferentes ciudades de Colombia y en diferentes temporadas altas.
 2.	**Análisis 2:** ¿Qué departamento de Colombia tiene mayor número de sillas salientes desaprovechadas en un año o mes de un año específico (e.g, 2015)?
@@ -45,15 +45,19 @@ Para esto el negocio les comenta que los datos son ….. Dichos datos pueden ten
 ## **Recursos requeridos**
 ***Datos suministrados***
 
-En el siguiente repositorio puede encontrar los diccionarios de datos y archivos de datos requeridos para el desarrollo de esta tarea, los datos de vuelos comprenden los periodos de tiempo entre 2010 y 2013 y la información de aeropuertos es de todos aquellos construidos antes de 2013 [Click aquí](https://github.com/MIAD-Modelo-Datos/Recursos/tree/main/Infraestructura%20visible/Etapa%201)
+Los datos son los de la base de datos: InfraestructuraVisibleTransaccional. También puede encontrar un backup o copia de los datos asi como el diccionario de los mismos en el siguiente repositorio, ambos requeridos para el desarrollo de esta tarea, los datos de vuelos comprenden los periodos de tiempo entre 2010 y 2013 y la información de aeropuertos es de todos aquellos construidos antes de 2013 [Click aquí](https://github.com/MISW-4402-Analisis-y-Modelado-de-datos/Recursos/Proyecto/Entendimiento/bd.sql)
 -	aeropuertos.csv
 -	vuelos.csv 
--	Revise y utilice los archivos que considere necesarios diferentes a los anteriores
+-	pib.csv
+-	proyecciones.csv
+- distancias.csv
+- cobertura.csv
+-	Revise y utilice los archivos que considere necesarios, lo anterior significa que NO es obligatorio usar todas las tablas o archivos
 
 ***Tecnología***
 
 Recuerde que está el tutorial de “Entendimiento de datos”, que será de utilidad para el uso de la tecnología utilizada en esta tarea.
-- JupyterLabs 
+- JupyterLab
 - Pyspark
 
 
