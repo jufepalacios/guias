@@ -7,17 +7,20 @@
 
 ![](./imagenes/S210InfrestructuraVisible.png)
 
-Infraestructura visible de forma conjunta con un grupo de consultores de inteligencia de negocios, ha trabajado en una especificación de los primeros análisis que quiere que usted realice. En esta primera fase, a partir de estos análisis propuestos, la empresa le ha entregado una serie de fuentes de datos y requiere que usted:
+Infraestructura visible de forma conjunta con un grupo de consultores de inteligencia de negocios, ha trabajado en una especificación de los primeros análisis que quiere que usted realice. En esta primera fase, a partir de estos análisis propuestos, la empresa le ha entregado una serie de fuentes de datos y requiere que usted realice los siguientes entregables relacionados con la etapa de entendimiento de datos:
 
-1.	Las explore, esto significa realizar el entendimiento de datos y analizar el resultado. 
-2.	Valide y documente si es posible realizar los análisis solicitados, si debe hacer ajustes en la forma como han sido planteados o si requiere de información adicional para el desarrollo de los mismos.  
+1.	**Entregable 1 - Perfilamiento de datos:** Explore las fuentes de datos compartidas y analice el resultado. 
+  
+2.  **Entregable 2 - Análisis de calidad de datos:** Revise las 4 dimensiones de calidad vistas en el curso en las fuentes compartidas y saque conclusiones.
+
+3.  **Entregable 3- Conclusión del entendimiento de datos:** Valide y documente si es posible realizar los análisis solicitados, si debe hacer ajustes en la forma como han sido planteados o si requiere de información adicional para el desarrollo de los mismos.  
 
 Recuerde que la exploración de los datos depende de los objetivos que tenga el proyecto de analítica. Es así como Infraestructura Visible le comparte los análisis que en este momento está interesada en responder:
 
-1.	Análisis 1: ¿Cuántos pasajeros salieron de Medellín a Cali durante temporadas altas? (e.g., Semana santa). En general quiere aplicar este análisis a diferentes ciudades de Colombia y en diferentes temporadas altas.
-2.	Análisis 2: ¿Qué departamento de Colombia tiene mayor número de sillas salientes desaprovechadas en un año o mes de un año específico (e.g, 2015)?
-3.	Análisis 3: ¿Qué aeropuerto representa mayor exportación internacional en términos de carga?
-4.	Análisis 4: Top 3 de aeropuertos nacionales que podrían reducir su presupuesto en aviones debido a que no transportan un mínimo del 50% de la capacidad que tienen en carga.
+1.	**Análisis 1:** ¿Cuántos pasajeros salieron de Medellín a Cali durante temporadas altas? (e.g., Semana santa). En general quiere aplicar este análisis a diferentes ciudades de Colombia y en diferentes temporadas altas.
+2.	**Análisis 2:** ¿Qué departamento de Colombia tiene mayor número de sillas salientes desaprovechadas en un año o mes de un año específico (e.g, 2015)?
+3.	**Análisis 3:** ¿Qué aeropuerto representa mayor exportación internacional en términos de carga?
+4.	**Análisis 4:** Top 3 de aeropuertos nacionales que podrían reducir su presupuesto en aviones debido a que no transportan un mínimo del 50% de la capacidad que tienen en carga.
 5.	Análisis 5: ¿Qué aeropuertos están en centros poblados donde la población de mujeres es mayor a la de hombres, con un PIB, el año de análisis, superior al promedio del Departamento donde está el centro poblado y donde el número de vuelos por mes de un año particular está por debajo del promedio nacional?
 
 A partir de lo anterior, los consultores de BI construyeron la siguiente tabla donde se encuentran los análisis identificados y los datos requeridos para lograr los objetivos de esta tarea, cada integrante del grupo debe elegir un análisis distinto para el desarrollo del proyecto a lo largo del curso
