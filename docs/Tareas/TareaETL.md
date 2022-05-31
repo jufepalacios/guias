@@ -18,8 +18,8 @@ Practicar lo aprendido en el tutorial de ETL
 
 # Enunciado
 Ahora que sabe cómo realizar un proceso ETL, dado el modelo multidimensional del proceso de negocio de movimientos de inventario 
-1. Diseñe el ETL para las dimensiones proveedor, tipoTransaccion y para la tabla de hechos
-2. Implemente el ETL diseñado para las dimensiones Proveedor, TipoTransaccion y para la tabla de hechos
+1. **Entregable 1 - Diseño del ETL:** Diseñe el ETL para las dimensiones proveedor, tipoTransaccion y para la tabla de hechos
+2. **Entregable 2 - Implementación del ETL:** implementación del proceso ETL para las dimensiones Proveedor, TipoTransaccion y para la tabla de hechos
 
 Note que para este proceso de negocio, las dimensiones Producto, Cliente y Fecha son iguales a las del hecho Orden, este caso se conoce como dimensiones compartidas. Usted debe concentrarse en las dimensiones Proveedor, TipoTransaccion y la tabla de hechos que no existen en la bodega de datos actualmente.
 
