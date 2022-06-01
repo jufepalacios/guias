@@ -50,8 +50,6 @@ Los datos son los de la base de datos: InfraestructuraVisibleTransaccional. Tamb
 -	vuelos.csv 
 -	pib.csv
 -	proyecciones.csv
-- distancias.csv
-- cobertura.csv
 -	Revise y utilice los archivos que considere necesarios, lo anterior significa que NO es obligatorio usar todas las tablas o archivos
 
 ***Tecnología***
