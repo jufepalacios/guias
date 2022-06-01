@@ -45,7 +45,7 @@ Para esto el negocio les comenta que los datos son ….. Dichos datos pueden ten
 ## **Recursos requeridos**
 ***Datos suministrados***
 
-Los datos los puede encontrar en la base de datos: InfraestructuraVisibleTransaccional del servidor que manejamos en los tutoriales. También puede encontrar el diccionario de los mismos en el siguiente repositorio, ambos recursos requeridos para el desarrollo de esta tarea, los datos de vuelos comprenden los periodos de tiempo entre 2010 y 2013 y la información de aeropuertos es de todos aquellos construidos antes de 2013 [Click aquí](https://github.com/MISW-4402-Analisis-y-Modelado-de-datos/Recursos/Proyecto/Entendimiento/diccionarioEntendimiento.csv)
+Los datos los puede encontrar en la base de datos: InfraestructuraVisibleTransaccional del servidor que manejamos en los tutoriales. También puede encontrar el diccionario de los mismos en el siguiente repositorio, ambos recursos requeridos para el desarrollo de esta tarea, los datos de vuelos comprenden los periodos de tiempo entre 2010 y 2015 y la información de aeropuertos es de todos aquellos construidos antes de 2015 [Click aquí](https://github.com/MISW-4402-Analisis-y-Modelado-de-datos/Recursos/Proyecto/Entendimiento/diccionarioEntendimiento.csv)
 -	aeropuertos
 -	vuelos 
 -	pib
