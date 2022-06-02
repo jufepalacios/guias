@@ -1,4 +1,4 @@
-# Tarea: Modelado de datos y SQL
+# Tarea: Modelo dimensional y Base de datos
 
 # Introducción
 
