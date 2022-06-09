@@ -8,11 +8,13 @@ Wide World Importers nos contrata como consultores para hacer un proyecto de ana
 | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------- | ----------------------------------------------------------------------- |
 | **Comportamiento de clientes a partir de órdenes** **de compra** | Visualizar la cantidad de productos vendidos y el valor total recaudado en un **rango de fechas** por cliente, vendedor, ciudad, producto | Tablero de control              | Ventas                  | Ordenes, detalles de órdenes, clientes, productos, ciudades, vendedores |
 
-2. El tablero de control construido con Dash [^2]: Comportamiento de clientes a partir de órdenes de compra: [https://datastudio.google.com/reporting/b00690e8-9e3e-47ec-8c2a-5ca0df2bd981](https://datastudio.google.com/reporting/b00690e8-9e3e-47ec-8c2a-5ca0df2bd981)
+2. Los tableros de control construidos con Data Studio: Comportamiento de clientes a partir de órdenes de compra: 
 
-[^2]: Documentación de Dash: [Introduction | Dash for Python Documentation | Plotly](https://dash.plotly.com/introduction)
+- [1.000 registros](https://datastudio.google.com/reporting/b00690e8-9e3e-47ec-8c2a-5ca0df2bd981)
+- [50.000 registros](https://datastudio.google.com/reporting/5714f6b7-da68-47e7-aaf2-43aa86e2e52c)
+- [145.000 registros](https://datastudio.google.com/reporting/ed1d3c28-43e5-4d70-ae08-0873b29ee8cb)
 
-
+Puede usar cualquiera para el desarrollo de la tarea, tenga en cuanta que a mayor número de registros mayor tiempo toman las herramientas para procesar
 
 [^1]: Caso inspirado en: [https://docs.microsoft.com/en-us/sql/samples/wide-world-importers-what-is?view=sql-server-ver15](https://docs.microsoft.com/en-us/sql/samples/wide-world-importers-what-is?view=sql-server-ver15)
 
