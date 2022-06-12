@@ -37,19 +37,23 @@ A partir de lo anterior, los consultores de BI construyeron la siguiente tabla d
 
 ** Los análisis de la tabla pueden ser agrupaciones de análisis más pequeños o se pueden extender, incluso puede que los análisis no estén completos. Es libre de proponerle nuevos análisis al negocio o complementar los de la tabla como parte de sus conclusiones. Piense en que le beneficiaría más a Infraestructura Visible y en paticular a un usuario que esté interesado en este estilo de análisis.
 
-Para esto el negocio les comenta que los datos son ….. Dichos datos pueden tener errores ya que no han sido utilizados previamente para ser analizados.
-1.	Hay información de vuelos y de aeropuertos construidos desde 2013 hasta 2020
-2.	Hay X aeropuertos y Y vuelos
-3.	El valor máximo de vuelos para un mismo aeropuerto en Colombia es de A
+Para esto el negocio les comenta que los datos son registros de vuelos, aeropuertos, información de centros poblados donde el negocio asume que un aeropuerto está ubicado en un centro poblado, información de proyección de poblacion y de PIB por departamentos. Dichos datos pueden tener errores ya que no han sido utilizados previamente para ser analizados. Especificamente nos comentan lo siguiente:
+1.	Hay informacion del PIB para los 32 departamentos desde 2005 hasta 2018
+2.	Se tiene la información de proyecciones de vida por género y edad para los 32 departamentos desde 2005 hasta 2015
+3.	El total de hombres de valle del cauca para 2016 es 2110069
+5.	Hay información de vuelos entre A y B y de aeropuertos construidos desde 2013 hasta 2020
+6.	Hay X aeropuertos y Y vuelos
+7.	Hay información de C centros poblados 
 
 ## **Recursos requeridos**
 ***Datos suministrados***
 
-Los datos los puede encontrar en la base de datos: InfraestructuraVisibleTransaccional del servidor que manejamos en los tutoriales. También puede encontrar el diccionario de los mismos en el siguiente repositorio, ambos recursos requeridos para el desarrollo de esta tarea, los datos de vuelos comprenden los periodos de tiempo entre 2010 y 2015 y la información de aeropuertos es de todos aquellos construidos antes de 2015 [Click aquí](https://github.com/MISW-4402-Analisis-y-Modelado-de-datos/Recursos/Proyecto/Entendimiento/diccionarioEntendimiento.csv)
--	aeropuertos
--	vuelos 
--	pib
--	proyecciones
+Los datos los puede encontrar en la base de datos: ProyectoTransaccional del servidor que manejamos en los tutoriales. También puede encontrar el diccionario de los mismos [aquí](https://github.com/MISW-4402-Analisis-y-Modelado-de-datos/Recursos/Proyecto/Entendimiento/diccionarioEntendimiento.csv), ambos recursos requeridos para el desarrollo de esta tarea, las tablas son copias de las tablas relacionales del negocio. Son 5 tablas por lo que un estudiante del grupo se debe encargar de las tablas divipolaCopia y pibCopia, los otros 3 estudiantes se pueden encargar de las otras 3 tablas
+-	aeropuertosCopia
+-	divipolaCopia
+-	vuelosCopia
+-	pibCopia
+-	proyeccionesCopia
 
 ***Tecnología***
 
