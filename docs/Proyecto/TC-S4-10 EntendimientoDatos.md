@@ -66,5 +66,5 @@ Recuerde que está el tutorial de “Entendimiento de datos”, que será de uti
 Incluir en la entrega el enlace (link) de la wiki donde registró lo solicitado en esta tarea con las actividades realizadas dentro de las fechas establecidas
 ## **Preguntas o más información**
 - Las preguntas que surjan en el desarrollo de esta tarea pueden registrarlas en el slack del curso.
-- Recuerde que tiene a su disposición el tutorial de Creación y manejo de la Wiki [aquí](https://misovirtual.virtual.uniandes.edu.co/codelabs/wiki-github/index.html?index=..%2F..ETL#0): 
+- Recuerde que tiene a su disposición el tutorial de Creación y manejo de la Wiki [aquí](https://misovirtual.virtual.uniandes.edu.co/codelabs/wiki-github/index.html?index=..%2F..ETL#0)
 - La forma en que se organicen y aporten al interior del grupo es fundamental para el logro del objetivo del proyecto y será evaluada en la entrega final del proyecto.
