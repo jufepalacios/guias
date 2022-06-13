@@ -15,7 +15,7 @@ Infraestructura visible de forma conjunta con un grupo de consultores de intelig
 
 3.  **Entregable 3- Conclusión del entendimiento de datos:** Valide y documente si es posible realizar los análisis solicitados, si debe hacer ajustes en la forma como han sido planteados o si requiere de información adicional para el desarrollo de los mismos. En caso de ser posible, diga explicitamente por cuáles columnas se relacionan los registros de las diferentes fuentes par apoder integrarlas
 
-Recuerde que la exploración de los datos depende de los objetivos que tenga el proyecto de analítica. Es así como Infraestructura Visible le comparte ejemplos de análisis que en este momento está interesada en responder:
+Recuerde que la exploración de los datos depende de los objetivos que tenga el proyecto de analítica. Es así como Infraestructura Visible le comparte **ejemplos** de análisis que en este momento está interesado en responder:
 
 1.	**Análisis 1:** ¿Cuántos pasajeros salieron de Medellín a Cali durante temporadas altas? (e.g., Semana santa). En general quiere aplicar este análisis a diferentes ciudades de Colombia y en diferentes temporadas altas.
 2.	**Análisis 2:** ¿Qué departamento de Colombia tiene mayor número de sillas salientes desaprovechadas en un año o mes de un año específico (e.g, 2015)?
@@ -23,7 +23,7 @@ Recuerde que la exploración de los datos depende de los objetivos que tenga el 
 4.	**Análisis 4:** Top 3 de aeropuertos nacionales que podrían reducir su presupuesto en aviones debido a que no transportan un mínimo del 50% de la capacidad que tienen en carga.
 5.	**Análisis 5:** ¿Qué aeropuertos están en centros poblados donde la población de mujeres es mayor a la de hombres, con un PIB, el año de análisis, superior al promedio del Departamento donde está el centro poblado y donde el número de vuelos por mes de un año particular está por debajo del promedio nacional?
 
-A partir de lo anterior, los consultores de BI construyeron la siguiente tabla donde se encuentran los análisis identificados y los datos requeridos para lograr los objetivos de esta tarea, cada integrante del grupo debe elegir un análisis distinto para el desarrollo del proyecto a lo largo del curso
+A partir de lo anterior, los consultores de BI construyeron la siguiente tabla donde se encuentra la generalización de los ejemplos anteriores como análisis identificados y los datos requeridos para lograr los objetivos de esta tarea, cada integrante del grupo debe elegir un análisis distinto para el desarrollo del proyecto a lo largo del curso
 
 | Tema analítico  | Análisis requeridos o inferidos | Categoría del análisis (*)  | Procesos de negocio | Fuentes de datos |
 | ------------- | ------------- | ------------- | ------------- | ------------- | 
