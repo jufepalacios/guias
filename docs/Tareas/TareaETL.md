@@ -26,10 +26,11 @@ Note que para este proceso de negocio, las dimensiones Producto, Cliente y Fecha
 ![Modelo movimientos](https://github.com/MISW-4402-Analisis-y-Modelado-de-datos/General/blob/main/Tutoriales/Modelado/Modelo%20movimiento.png)
 
 
-Sobre los resultados del entendimiento de datos Wide World Importers les comenta
-- 2 para proveedor: explicitas para hacer transformaciones
-- B
-- C
-- D
-- E
-- F
+Sobre los resultados del entendimiento de datos Wide World Importers les comenta que:
+- Los días de pago no pueden ser negativos no tiene sentido para nuestro negocio. Por favor corregir multiplicando los datos negativos por -1.
+- Sobre "La cantidad máxima de productos movidos es 50 millones por viaje", encontramos que efectivamente gracias a los avances ya podemos cargar más que la cantidad de 50 millones por viajes. 
+- La falta de datos antes del 2014 es un error de extracción de datos. Los nuevos datos incluyen efectivamente este año.
+- Nuestro análisis concluye que la información que se ha duplicado totalmente no es útil. Por favor no tomarlos en cuenta. 
+- "El formato de fechas manejado es YYYY-MM-DD HH:MM:SS si tienen hora, minutos y segundos. De lo contrario el formato es YYYY-MM-DD": En cuanto a formatos de fechas estan de acuerdo con que los estandarizemos y el formato sea el especificado en la regla
+- Existen proveedores que tienen 2 filas una con un nombre y otra con el mismo nombre mas un "Inc" o "Ltd". Unimos estos a un solo proveedor dado que se trató de un error de digitación.
+- El código postal igual para todos nuestros proveedores es un error también que ya se corrigió.
