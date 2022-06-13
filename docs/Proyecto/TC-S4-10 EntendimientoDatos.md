@@ -13,7 +13,7 @@ Infraestructura visible de forma conjunta con un grupo de consultores de intelig
   
 2.  **Entregable 2 - Análisis de calidad de datos:** Revise las 4 dimensiones de calidad vistas en el curso en las fuentes compartidas y saque conclusiones.
 
-3.  **Entregable 3- Conclusión del entendimiento de datos:** Valide y documente si es posible realizar los análisis solicitados, si debe hacer ajustes en la forma como han sido planteados o si requiere de información adicional para el desarrollo de los mismos.  
+3.  **Entregable 3- Conclusión del entendimiento de datos:** Valide y documente si es posible realizar los análisis solicitados, si debe hacer ajustes en la forma como han sido planteados o si requiere de información adicional para el desarrollo de los mismos. En caso de ser posible, diga explicitamente por cuáles columnas se relacionan los registros de las diferentes fuentes par apoder integrarlas
 
 Recuerde que la exploración de los datos depende de los objetivos que tenga el proyecto de analítica. Es así como Infraestructura Visible le comparte ejemplos de análisis que en este momento está interesada en responder:
 
@@ -31,7 +31,8 @@ A partir de lo anterior, los consultores de BI construyeron la siguiente tabla d
 | Comportamiento de vuelos y aeropuertos en Colombia   | Análisis 2 <br> Visualizar el número de puestos desaprovechados en un rango de fechas de aeropuertos Internacionales a aeropuertos en Colombia o entre aeropuertos nacionales, los aeropuertos se pueden agrupar por departamento, país, etc  | Tablero de control  |  Tráfico y capacidad de carga aérea en aeropuertos de Colombia  | Aeropuertos, Vuelos |
 | Comportamiento de vuelos y aeropuertos en Colombia   | Análisis 3 <br> Visualizar la carga transportada (entrante y saliente) en un rango de fechas de aeropuertos Internacionales a aeropuertos en Colombia o entre aeropuertos nacionales, los aeropuertos se pueden agrupar por departamento, país, etc  | Tablero de control  |  Tráfico y capacidad de carga aérea en aeropuertos de Colombia  | Aeropuertos, Vuelos |
 | Comportamiento de vuelos y aeropuertos en Colombia   | Análisis 4 <br> Visualizar la carga desaprovechada en un rango de fechas de aeropuertos Internacionales a aeropuertos en Colombia o entre aeropuertos nacionales, los aeropuertos se pueden agrupar por departamento, país, etc  | Tablero de control  | Tráfico y capacidad de carga aérea en aeropuertos de Colombia  | Aeropuertos, Vuelos |
-| Comportamiento de vuelos y aeropuertos en Colombia   | Análisis 5 <br> Visualizar la información de los aeropuertos están en centros poblados donde la población de mujeres es mayor a la de hombres, con un PIB, el año de análisis, superior al promedio del Departamento donde está el centro poblado y donde el número de vuelos por mes de un año particular seleccionado está por debajo del promedio nacional ese mismo mes de ese año. <br>| Tablero de control  | Tráfico y capacidad de carga aérea en aeropuertos de Colombia  | Aeropuertos, Vuelos, Cobertura por centro poblado  |
+| Comportamiento de vuelos y aeropuertos en Colombia   | Análisis 5 <br> Visualizar la información de los aeropuertos que están en centros poblados donde la población de mujeres es mayor a la de hombres, con un PIB, el año de análisis, superior al promedio del Departamento donde está el centro poblado y donde el número de vuelos por mes de un año particular seleccionado está por debajo del promedio nacional ese mismo mes de ese año. <br>| Tablero de control  | Tráfico y capacidad de carga aérea en aeropuertos de Colombia  | Aeropuertos, Vuelos  |
+| Comportamiento de vuelos y aeropuertos en Colombia   | Análisis 6 <br> Visualizar la información de los aeropuertos y/o vuelos en relación a las proyecciones de habitantes por género, edad y pib <br>| Tablero de control  | PIB  | Proyecciones de habitantes por edad y género  |
 
 *La categoría de análisis posibles son Tableros de control, Análisis OLAP, Aprendizaje automático. En el curso solo vamos a abordar los tableros de control
 
@@ -42,8 +43,8 @@ Para esto el negocio les comenta que los datos son registros de vuelos, aeropuer
 2.	Se tiene la información de proyecciones de vida por género y edad para los 32 departamentos desde 2005 hasta 2015
 3.	El total de hombres de valle del cauca para 2016 es 2110069
 5.	Hay información de vuelos entre A y B y de aeropuertos construidos desde 2013 hasta 2020
-6.	Hay X aeropuertos y Y vuelos
-7.	Hay información de C centros poblados 
+6.	Hay 865 aeropuertos y 605.448 vuelos
+7.	Hay información de 7879 centros poblados 
 
 ## **Recursos requeridos**
 ***Datos suministrados***
@@ -60,7 +61,6 @@ Los datos los puede encontrar en la base de datos: ProyectoTransaccional del ser
 Recuerde que está el tutorial de “Entendimiento de datos”, que será de utilidad para el uso de la tecnología utilizada en esta tarea.
 - JupyterLab
 - Pyspark
-
 
 ## **Recomendaciones de los entregables**
 Incluir en la entrega el enlace (link) de la wiki donde registró lo solicitado en esta tarea con las actividades realizadas dentro de las fechas establecidas
