@@ -49,7 +49,7 @@ Para esto el negocio les comenta que los datos son registros de vuelos, aeropuer
 ## **Recursos requeridos**
 ***Datos suministrados***
 
-Los datos los puede encontrar en la base de datos: ProyectoTransaccional del servidor que manejamos en los tutoriales. También puede encontrar el diccionario de los mismos [aquí](https://github.com/MISW-4402-Analisis-y-Modelado-de-datos/Recursos/Proyecto/Entendimiento/diccionarioEntendimiento.csv), ambos recursos requeridos para el desarrollo de esta tarea, las tablas son copias de las tablas relacionales del negocio. Son 5 tablas por lo que un estudiante del grupo se debe encargar de las tablas divipolaCopia y pibCopia, los otros 3 estudiantes se pueden encargar de las otras 3 tablas
+Los datos los puede encontrar en la base de datos: ProyectoTransaccional del servidor que manejamos en los tutoriales. También puede encontrar el diccionario de los mismos [aquí](https://github.com/MISW-4402-Analisis-y-Modelado-de-datos/guias/blob/main/docs/Proyecto/Diccionario%20IV.xlsx), ambos recursos requeridos para el desarrollo de esta tarea, las tablas son copias de las tablas relacionales del negocio. Son 5 tablas por lo que un estudiante del grupo se debe encargar de las tablas divipolaCopia y pibCopia, los otros 3 estudiantes se pueden encargar de las otras 3 tablas
 -	aeropuertosCopia
 -	divipolaCopia
 -	vuelosCopia
