@@ -15,7 +15,7 @@ Practicar lo aprendido en el tutorial de modelado de datos y SQL y retomar el le
 1. MySQL Workbench
 2. Modelo multidimensional asociado al proceso de movimientos
 3. Acceso al servidor de base de datos 
-4. Script SQL <a href=''>aquí</a>
+4. Script SQL <a href='https://github.com/MISW-4402-Analisis-y-Modelado-de-datos/guias/blob/main/docs/Tareas/scriptTarea.sql'>aquí</a>
 
 # Enunciado
 Ahora que sabe cómo crear modelos multidimensionales y SQL básico, lo que debe hacer en la primera parte, es crear en una base de datos relacional las tablas que representan un modelo dado, poblarlas y consultarlas. En la segunda parte, va a practicar la competencia de modelar con el caso dado. A continuación encuentra el detalle de las actividades a realizar:  
