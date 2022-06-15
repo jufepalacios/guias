@@ -1,6 +1,4 @@
 USE Estudiante_43;
-
-USE Estudiante_43;
 --------------------- Modelo de hecho movimiento
 CREATE TABLE Fecha (
 Fecha DATETIME, 
