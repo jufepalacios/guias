@@ -42,9 +42,8 @@ Para esto el negocio les comenta que los datos son registros de vuelos, aeropuer
 1.	Hay informacion del PIB para los 32 departamentos desde 2005 hasta 2018
 2.	Se tiene la información de proyecciones de vida por género y edad para los 32 departamentos desde 2005 hasta 2015
 3.	El total de hombres de valle del cauca para 2016 es 2110069
-5.	Hay información de vuelos entre 2004 y 2018 y de aeropuertos construidos desde 2013 hasta 2020
-6.	Hay 865 aeropuertos y 605.448 vuelos
-7.	Hay información de 7879 centros poblados 
+5.	Hay información de 605.448 vuelos entre 2004 y 2018 y de 865 aeropuertos construidos desde 2013 hasta 2020
+6.	Hay información de 7879 centros poblados 
 
 ## **Recursos requeridos**
 ***Datos suministrados***
