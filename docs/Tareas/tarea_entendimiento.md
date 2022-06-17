@@ -12,7 +12,7 @@ Practicar lo aprendido en el tutorial de entendimiento de los datos.
 
 **¿Qué necesita?**
 
-1. Notebook para trabajar: puede usar la seccion 2.5 "Tarea" al final del notebook del tutorial para realizar esta actividad
+1. Notebook para trabajar: puede usar la seccion 5 "Tarea" al final del notebook del tutorial para realizar esta actividad
 2. Acceso a la base de datos WWImportersTransactional
 
 # Enunciado
