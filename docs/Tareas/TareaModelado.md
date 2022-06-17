@@ -30,10 +30,10 @@ Ahora que sabe cómo crear modelos multidimensionales y SQL básico, lo que debe
 | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------- | ----------------------------------------------------------------------- |
 | **Movimientos en el inventario de WWI** | Visualizar el número de productos que se movieron en el inventario en un rango de fechas por cliente, proveedor, y/o tipo de transacción | Consultas SQL             | Inventario                  | Movimientos, Tipos de transacción, Proveedores, Clientes y Productos  |
 
-![Modelo moimientos](https://github.com/MISW-4402-Analisis-y-Modelado-de-datos/General/blob/main/Tutoriales/Modelado/Modelo%20movimiento.png)
+![Modelo moimientos](Img/Modelo%20movimiento.png)
 
 
-![Sentencias CREATE](https://github.com/MISW-4402-Analisis-y-Modelado-de-datos/General/blob/main/Tutoriales/Modelado/CreateMovimientos.png)
+![Sentencias CREATE](Img/CreateMovimientos.png)
 
 
 2.	**MODELO MULTIDIMENSIONAL**: Proponga un modelo multidimensional para el siguiente caso:
