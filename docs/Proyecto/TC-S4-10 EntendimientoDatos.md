@@ -41,7 +41,7 @@ A partir de lo anterior, los consultores de BI construyeron la siguiente tabla d
 Para esto el negocio les comenta que los datos son registros de vuelos, aeropuertos, información de centros poblados donde el negocio asume que un aeropuerto está ubicado en un centro poblado, información de proyección de poblacion y de PIB por departamentos. Dichos datos pueden tener errores ya que no han sido utilizados previamente para ser analizados. Especificamente nos comentan lo siguiente:
 1.	Hay informacion del PIB para los 32 departamentos desde 2005 hasta 2018
 2.	Se tiene la información de proyecciones de vida por género y edad para los 32 departamentos desde 2005 hasta 2015
-3.	El total de hombres de valle del cauca para 2016 es 2110069
+3.	El total de hombres de valle del cauca para 2014 es 2110069
 5.	Hay información de 605.448 vuelos entre 2004 y 2018 y de 865 aeropuertos construidos desde 2013 hasta 2020
 6.	Hay información de 7879 centros poblados 
 
