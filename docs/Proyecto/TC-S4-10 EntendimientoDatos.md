@@ -13,7 +13,7 @@ Infraestructura visible de forma conjunta con un grupo de consultores de intelig
   
 2.  **Entregable 2 - Análisis de calidad de datos:** Revise las 4 dimensiones de calidad vistas en el curso en las fuentes compartidas y saque conclusiones.
 
-3.  **Entregable 3- Conclusión del entendimiento de datos:** Valide y documente si es posible realizar los análisis solicitados, si debe hacer ajustes en la forma como han sido planteados o si requiere de información adicional para el desarrollo de los mismos. En caso de ser posible, diga explicitamente por cuáles columnas se relacionan los registros de las diferentes fuentes par apoder integrarlas
+3.  **Entregable 3- Conclusión del entendimiento de datos:** Valide y documente si es posible realizar los análisis solicitados, si debe hacer ajustes en la forma como han sido planteados o si requiere de información adicional para el desarrollo de los mismos. En caso de ser posible, diga explicitamente por cuáles columnas se relacionan los registros de las diferentes fuentes para poder integrarlas y no olvide incluir la lista de supuestos y dudas que quedan luego de este ejercicio para que sea la empresan quien de respuesta a esas inquietudes. 
 
 Recuerde que la exploración de los datos depende de los objetivos que tenga el proyecto de analítica. Es así como Infraestructura Visible le comparte **ejemplos** de análisis que en este momento está interesado en responder:
 
