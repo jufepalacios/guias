@@ -8,9 +8,10 @@
 
 ¿Qué necesita?
     
-    1. Herramienta para desarrollar tableros de control -[Google data studio](https://datastudio.google.com)
+    1. Herramienta para el diseño de los mock-ups (https://ninjamock.com/)
+    2. Herramienta para desarrollar tableros de control -[Google data studio](https://datastudio.google.com)
 
-    2. Acceso al servidor de base de datos
+    3. Acceso al servidor de base de datos
 ## **Enunciado**
 
 World Wide Importers está muy interesado en resolver el siguiente requerimiento analítico por medio del uso de un tablero de control
