@@ -22,7 +22,7 @@ Paquete_de_venta VARCHAR(20),
 Precio_unitario FLOAT,
 PRIMARY KEY(ID_Producto));
 
-CREATE Proveedor(
+CREATE TABLE Proveedor(
 ID_proveedor INT
 Nombre VARCHAR(20),
 Categoria VARCHAR(20),
@@ -33,7 +33,7 @@ Codigo_postal INT,
 PRIMARY_KEY(ID_proveedor)
 );
 
-CREATE TipoTransaccion(
+CREATE TABLE TipoTransaccion(
 ID_Tipo_transaccion TINYINT,
 Tipo VARCHAR(20),
 PRIMARY_KEY(ID_Tipo_transaccion)
