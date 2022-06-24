@@ -37,7 +37,7 @@ En la barra de herramientas de clic en añadir datos. En la barra de búsqueda q
 
 <img src="./img/DS5.png" width="800"/>
 
-Autorize el acceso a los datos y configure el  conector de la siguiente manera, use las credenciales de acceso al servidor dadas en la semana 1 del curso y conéctese a la base de datos que modela su bodega de datos.
+Autorize el acceso a los datos y configure el  conector de la siguiente manera, use las credenciales de acceso al servidor dadas en la semana 1 del curso (<i>Estudiante_i</i>) y conéctese a la base de datos que modela su bodega de datos.
 
 <img src="./img/DS6.png" width="800"/>
 
