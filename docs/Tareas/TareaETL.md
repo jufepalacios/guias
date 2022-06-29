@@ -34,3 +34,4 @@ Sobre los resultados del entendimiento de datos, Wide World Importers les coment
 - "El formato de fechas manejado es YYYY-MM-DD HH:MM:SS si tienen hora, minutos y segundos. De lo contrario el formato es YYYY-MM-DD": En cuanto a formatos de fechas estamos de acuerdo con que los estandarizemos y el formato sea el especificado en la regla de negocio.
 - Existen proveedores que tienen 2 filas una con un nombre y otra con el mismo nombre mas un "Inc" o "Ltd". Unimos estos a un solo proveedor dado que se trató de un error de digitación.
 - El código postal igual para todos nuestros proveedores es un error que también fue corregido.
+- Cantidades negativas significan salidas de productos del inventario
