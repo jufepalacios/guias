@@ -19,7 +19,7 @@ Dentro  de  procesos  de  ETL,  es común  que se  presenten  dimensiones que pu
 6. Archivos sql con los datos listos para cargue a bodega de datos en caso de requerirlo
 
 # Enunciado
-Ahora que sabe cómo realizar un proceso ETL con manejo de historia, dado el modelo multidimensional del proceso de negocio de **ordenes de venta**, debe enfrentar el reto de tener categorias de los clientes que cambian en el tiempo y que el negocio reporta de  diferentes maneras desde la base transaccional, que llamaremos escenarios. A partir de esto, reflexione sobre:
+Ahora que sabe cómo realizar un proceso ETL con manejo de historia, dado el modelo multidimensional del proceso de negocio de **ordenes de venta**, debe enfrentar el reto de tener ciudades de los clientes que cambian en el tiempo, es decir clientes que cambian de ciudad de residencia, y que el negocio reporta de  diferentes maneras desde la base transaccional, que llamaremos escenarios. A partir de esto, reflexione sobre:
 1. **Práctica 1 - Correcciones al diseño del ETL:** Reflexione sobre los ajustes requeridos en el diseño del ETL de manera que se incluya el manejo de historia 
 2. **Práctica 2 - Manejo de historia:** Identifique cuáles técnicas de manejo de historia se podrían usar y actualice el modelo multimensional con base en el tipo de manejo que más adelante le sugerimos
 3. **Práctica 3 - Implementación del ETL con historia:** Implemente los cambios al ETL de manera que incluya el manejo de historia
