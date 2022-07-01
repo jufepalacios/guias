@@ -26,8 +26,7 @@ Ahora que sabe cómo realizar un proceso ETL con manejo de historia, dado el mod
 
 Recuerde que esta actividad es **formativa**, es decir no tendra entregable ni nota. Es una práctica que le permitirá entender lo que se requiere para realizar un ETL incremental con historia y prepararse para el momento de aplicarlo al proyecto. 
 
-![Modelo ordenes](https://github.com/MISW-4402-Analisis-y-Modelado-de-datos/guias/blob/main/docs/Tareas/Img/ModeloHistoriaTarea.jpg)
-
+![](Img/ModeloHistoriaTarea.jpg)
 WWImporters generó dos formas distintas de reportar los datos:
 - **Escenario 1.** Envían todos los clientes con o sin cambios
 - **Escenario 2.** Envían la última versión reportada a la bodega de datos del cliente, y la versión actual, para los clientes que tuvieron algún cambio desde el último reporte hecho a la bodega.
