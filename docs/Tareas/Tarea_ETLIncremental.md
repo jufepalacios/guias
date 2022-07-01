@@ -32,7 +32,7 @@ WWImporters generó dos formas distintas de reportar los datos:
 - **Escenario 1.** Envían todos los clientes con o sin cambios
 - **Escenario 2.** Envían la última versión reportada a la bodega de datos del cliente, y la versión actual, para los clientes que tuvieron algún cambio desde el último reporte hecho a la bodega.
 
-Practique con ambos escenarios. Las tablas con la información para cada escenario se llaman ClientesReporte2_Escenario1 y ClientesReporte2_Escenario2.
+Practique con ambos escenarios. Las tablas con la información para cada escenario se llaman ClientesReporte2_Escenario1 y ClientesReporte2_Escenario2. Adicionalmente, para la tabla de hechos se tiene la información para las nuevas ordenes de compra del segundo semetre de 2016 en la tabla transacional Ordenes
 
 Como resultado de esta actividad debe publicar en el foro respectivo, dudas del proceso, que serán discutidas en las sesiones sincrónicas de esta semana
 **Preguntas ejemplo:**
