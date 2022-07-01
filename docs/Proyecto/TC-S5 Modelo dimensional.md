@@ -3,7 +3,9 @@
 - Modelar multidimensionalmente la base datos (BD) utilizada para los análisis sugeridos del proyecto.  
 - Diseñar el proceso ETL para cargar las tablas que se deben crear asociadas al modelo multidimensional propuesto.
 ## **Instrucciones**
-![](./imagenes/S210InfrestructuraVisible.png)
+
+![](https://github.com/MISW-4402-Analisis-y-Modelado-de-datos/guias/blob/main/docs/Proyecto/Img/S210InfrestructuraVisible.png)
+
 
 En esta fase del proyecto, a partir de los análisis requeridos y de fuentes de datos proporcionadas, Infraestructura Visible le solicita:
 1.	**Entregable 1- Modelo multidimensional:** Una propuesta de modelo multidimensional que permita realizar los análisis propuestos que su grupo eligió, acompañado de una descripción y justificación del mismo. Suponga como proceso de negocio <i>RegistroDeVuelos</i> que se realiza de forma mensual.
