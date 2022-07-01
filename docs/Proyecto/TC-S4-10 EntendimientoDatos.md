@@ -5,7 +5,7 @@
 - Revisar la viabilidad de implementar análisis con fuentes de datos dadas.
 ## **Instrucciones**
 
-![](./imagenes/S210InfrestructuraVisible.png)
+![](https://github.com/MISW-4402-Analisis-y-Modelado-de-datos/guias/blob/main/docs/Proyecto/Img/S210InfrestructuraVisible.png)
 
 Infraestructura visible de forma conjunta con un grupo de consultores de inteligencia de negocios, ha trabajado en una especificación de los primeros análisis que quiere que usted realice. En esta primera fase, a partir de estos análisis propuestos, la empresa le ha entregado una serie de fuentes de datos y requiere que usted realice los siguientes entregables relacionados con la etapa de entendimiento de datos:
 
