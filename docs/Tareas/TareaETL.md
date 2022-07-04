@@ -37,3 +37,5 @@ Sobre los resultados del entendimiento de datos, Wide World Importers les coment
 - Existen proveedores que tienen 2 filas una con un nombre y otra con el mismo nombre mas un "Inc" o "Ltd". Unimos estos a un solo proveedor dado que se trató de un error de digitación.
 - El código postal igual para todos nuestros proveedores es un error que también fue corregido.
 - Cantidades negativas significan salidas de productos del inventario
+
+Los datos revisados quedan en las tablas Proveedores y movimientos, en las tablas ProveedoresCopia y movimientosCopia quedan los datos con errores en caso de que deseen revisar/ejecutar el ejercicio de entendimiento de datos
