@@ -35,6 +35,7 @@ WWImporters generó dos formas distintas de reportar los datos:
 Practique con ambos escenarios. Las tablas con la información para cada escenario se llaman ClientesReporte2_Escenario1 y ClientesReporte2_Escenario2. Adicionalmente, para la tabla de hechos se tiene la información para las nuevas ordenes de compra del segundo semetre de 2016 en la tabla transacional Ordenes
 
 Como resultado de esta actividad debe publicar en el foro respectivo, dudas del proceso, que serán discutidas en las sesiones sincrónicas de esta semana
+
 **Preguntas ejemplo:**
 
 **1. ¿Qué ajustes habrá que realizar a los pasos de transformar y cargar la tabla de hechos en el proceso de ETL básico, desarrrollado previamente?** 
