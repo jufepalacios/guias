@@ -45,11 +45,14 @@ Una vez conectado podrá ver las tablas disponibles para consultas
 
 <img src="./img/DS7.png" width="800"/>
 
-Idealmente en las herramientas de visualización quisieramos poder tomar diferentes tablas y obtener lo necesario para las gráficas, sin embargo las herramientas del mercado son muy limitadas en cuanto a escalabilidad, manipulación de datos sencilla entre otras. Data Studio en particular no soporta la unión de varias tablas, por lo cual es necesario hacer uso de "vistas" SQL o simplemente crear una tabla en la base de datos que tenga la información que deseamos visualizar en Data Studio. Recuerde que si se trata de una vista, la información se actualiza de forma automática cada vez que se agregan filas a las tablas originales. Sin embargo, este comportamiento no ocurre si se tiene una tabla y será necesario recrearla cada vez que se ingresen nuevos datos.
-
-De esta manera nos dirijimos a MySQL Workbench y creamos una tabla nueva con todo lo que queremos visualizar haciendo uso de las sentencias CREATE TABLE y SELECT
+Idealmente en las herramientas de visualización quisieramos poder tomar diferentes tablas y obtener lo necesario para las gráficas, sin embargo las herramientas del mercado son muy limitadas en cuanto a escalabilidad, manipulación de datos sencilla entre otras. Data Studio en particular no soporta la unión de varias tablas, por lo cual es necesario hacer uso de "vistas" SQL o simplemente crear una tabla en la base de datos que tenga la información que deseamos visualizar en Data Studio. Recuerde que si se trata de una vista, la información se actualiza de forma automática cada vez que se agregan filas a las tablas originales. Sin embargo, este comportamiento no ocurre si se tiene una tabla y será necesario recrearla cada vez que se ingresen nuevos datos. A continuación mostramos la sentencia SQL para crear una vista
 
 <img src="./img/DS8_2.png" width="800"/>
+
+Sin embargo hemos visto que Data Studio funciona mejor cuando hacemos uso de tablas y no de vistas, por lo cual, nos dirijimos a MySQL Workbench y creamos una tabla nueva con todo lo que queremos visualizar haciendo uso de las sentencias CREATE TABLE y SELECT/INSERT, en este ejemplo mostramos las sentencias por aparte
+
+<img src="./img/DS_38.PNG" width="800"/>
+<img src="./img/DS_37.PNG" width="800"/>
 
 Con la tabla ya creada podemos consultarla desde Data Studio, seleccionandola y luego dando clic en <i>Añadir</i>
 
@@ -162,8 +165,14 @@ Otro filtro importante es el de las fechas, par agregarlo damos clic en Añadir 
 
 <img src="./img/DS35.png" width="800"/>
 
-
 Recuerde agregar titulos por gráfica, las leyendas y todo aquello que se abordó en esta temática de tableros de control sobre buenas prácticas. 
+
+### Publicar/Compartir el tablero de control
+Para compartir su tablero de clic en el boton de "Compartir" en el menu superior al costado derecho
+<img src="./img/P_1.PNG" width="800"/>
+
+En la ventana emergente de clic en <i>Gestionar acceso</i>, en el menu desplegable seleccione <i>Cualquier persona con el enlace puede verlo</i> y habilite las dos casillas inferiores para garantizar que no se pueda duplicar, descargar o configurar acceso (esta última es opcional) el tablero de control, finalmente copie el enlace
+<img src="./img/P_2.PNG" width="500"/>
 
 # Cierre
 Al terminar este tutorial, el estudiante está en capacidad de crear tableros de control en Data Studio
