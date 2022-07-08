@@ -169,9 +169,11 @@ Recuerde agregar titulos por gráfica, las leyendas y todo aquello que se abord�
 
 ### Publicar/Compartir el tablero de control
 Para compartir su tablero de clic en el boton de "Compartir" en el menu superior al costado derecho
+
 <img src="./img/P_1.PNG" width="800"/>
 
 En la ventana emergente de clic en <i>Gestionar acceso</i>, en el menu desplegable seleccione <i>Cualquier persona con el enlace puede verlo</i> y habilite las dos casillas inferiores para garantizar que no se pueda duplicar, descargar o configurar acceso (esta última es opcional) el tablero de control, finalmente copie el enlace
+
 <img src="./img/P_2.PNG" width="500"/>
 
 # Cierre
