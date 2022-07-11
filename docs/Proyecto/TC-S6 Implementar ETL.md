@@ -27,7 +27,23 @@ Los datos los puede encontrar en la base de datos: ProyectoTransaccional del ser
 
 ***Respuestas del negocio a conclusiones de Entendimiento***
 
-Estará disponible después de la entrega de entendimiento de datos.
+En general el negocio les comenta que tienen datos hasta 2015, sin embargo les hacen entrega de información desde 2015 hasta 2017 para el manejo de historia
+- Se revisaron los datos y se completó la información de los 10 departamentos y los 2 años que faltaban de los datos.
+- Infraestructura Visible está de acuerdo en que hay varios nombres para algunos departamentos, y acogen la propuesta de estandarizar los datos, transformación que será responsabilidad de ustedes
+- Infraestructura Visible está de acuerdo con que ustedes eliminen los duplicados totales que encontraron en los datos
+- La regla 2 de negocio es correcta en términos de tiempo, cuando dijeron datos hasta 2015, no incluian el 2015, sino hasta diciembre de 2014
+- Se revisaron los datos y se completó la información de los 2 departamentos que faltaban en los datos y los datos de proyecciones según edad para cada género
+- El valor real de hombre para Valle del cauca en 2014 es incorrecto, les piden que hagan la corrección (les recomendamos pensar en este caso, con los datos que tienen, ¿cuál es el mejor método de imputación?)
+- También le solicitan imputar el valor extremo de la variable <i>total Mujeres </i>
+- Se revisó la columna constante DP, que representa el código del departamento y se asignaron los valores reales
+- Infraestructura Visible les comenta que se hicieron las revisiones y se quitaron los duplicados que variaban en las columnas carga_bordo, carga_ofrecida y pasajeros_en_vuelos de la tabla de aeropuertos
+- Se completó la información de aeropuertos origen y destino que faltaba
+- Infraestructura Visible está de acuerdo con la estandarización de los meses y esta transformación será responsabilidad de ustedes
+- Se corrigieron los valores de longitud de pista, se agregaron las categorías para los aeropuertos que no son aerodromos
+- Se revisó la columna constante de Latitud de los aeropuertos y se corrigieron los valores
+- Les solictan que corrijan los valores negativos de numero_vuelos_origen, multiplicando por -1
+- Se revisaron las columnas Código Departamento y Nombre Municipio de la tabla divipolaCopia, se corrige el nombre del municipio pero les solicitan corregir el código del departamento, usando como base la tabla de PIB
+- Se eliminaron los registros inconsistentes, donde aparecia el mismo centro poblado ubicado en distintos puntos geográficos según sus variables de latitud y longitud
 
 ***Modelo multidimensional propuesto***<br>
 Estará disponible después de la entrega de modelado dimensional de datos.
