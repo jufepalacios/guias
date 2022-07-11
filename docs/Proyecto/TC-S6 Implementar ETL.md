@@ -44,8 +44,10 @@ En general el negocio les comenta que tienen datos hasta 2015, sin embargo les h
 - Se corrigieron los valores de longitud de pista, se agregaron las categorías para los aeropuertos que no son aerodromos
 - Se revisó la columna constante de Latitud de los aeropuertos y se corrigieron los valores
 - Les solictan que corrijan los valores negativos de numero_vuelos_origen, multiplicando por -1
-- Se revisaron las columnas Código Departamento y Nombre Municipio de la tabla divipolaCopia, se corrige el nombre del municipio pero les solicitan corregir el código del departamento, usando como base la tabla de PIB
+- Se revisaron las columnas Código Departamento y Nombre Municipio de la tabla divipolaCopia, se corrige el nombre del municipio pero les solicitan corregir el código del departamento, usando como base la tabla de PIB. 
+- Con respecto a los nombres de los departamentos que presentan errores el negocio les recomienda primero estandarizar los nombres haciendo uso de diccionarios y luego revisar duplicados para finalmente lograr hacer las integraciones que sean necesarias 
 - Se eliminaron los registros inconsistentes, donde aparecia el mismo centro poblado ubicado en distintos puntos geográficos según sus variables de latitud y longitud
+
 
 ***Modelo multidimensional propuesto***<br>
 Estará disponible después de la entrega de modelado dimensional de datos.
