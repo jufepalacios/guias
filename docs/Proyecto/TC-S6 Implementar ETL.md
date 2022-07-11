@@ -25,6 +25,8 @@ Los datos los puede encontrar en la base de datos: ProyectoTransaccional del ser
 -	pib 
 -	proyecciones
 
+Para la fecha, si no hay día o mes asuma como valores por defecto el pimer día del mes, y el primer mes de cada año
+
 ***Respuestas del negocio a conclusiones de Entendimiento***
 
 En general el negocio les comenta que tienen datos hasta 2015, sin embargo les hacen entrega de información desde 2015 hasta 2017 para el manejo de historia
