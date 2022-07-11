@@ -54,6 +54,8 @@ Sin embargo hemos visto que Data Studio funciona mejor cuando hacemos uso de tab
 <img src="./img/DS_38.PNG" width="800"/>
 <img src="./img/DS_37.PNG" width="800"/>
 
+Puede encontrar las sentencias en el script adjunto <i>crearTableroScript.sql</i>
+
 Con la tabla ya creada podemos consultarla desde Data Studio, seleccionandola y luego dando clic en <i>Añadir</i>
 
 <img src="./img/DS9.png" width="800"/>
