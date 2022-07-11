@@ -27,7 +27,8 @@ Todo el material desarrollado en el curso. Recuerde que estos recursos a nivel d
 ## **Recomendaciones de los entregables**
 - Incluir en la entrega la dirección de la wiki donde registraron lo solicitado en esta tarea.
 - Padlet
-    - Propuestas de proyecto Grupo X: https://uniandes.padlet.org/miadvirtualmde/ow6uu0ce6b6r0z4
-    - Contraseña: Diríjase a las instrucciones del curso para ver la contraseña
+    - Propuestas de proyecto: https://uniandes.padlet.org/lj_romero/sk6fhghzovh1en02
+    - Contraseña: miso_proyectos202219
+    
 ## **Preguntas o más información**
 Las preguntas que surjan en el desarrollo de esta tarea pueden registrarlas en el slack del curso
