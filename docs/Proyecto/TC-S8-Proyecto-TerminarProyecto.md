@@ -22,7 +22,8 @@ Asociada a esta entrega encuentra un segundo enlace para determinar el grupo al 
 ## **Recursos requeridos**
 Todo el material desarrollado en el curso. Recuerde que estos recursos a nivel de datos y documentación los encuentra en estos enlaces del  repositorio:
 
-●	Datos FALTA INCLUIR
+●	Datos compartidos para el proceso de ETL
+
 ## **Recomendaciones de los entregables**
 - Incluir en la entrega la dirección de la wiki donde registraron lo solicitado en esta tarea.
 - Padlet
