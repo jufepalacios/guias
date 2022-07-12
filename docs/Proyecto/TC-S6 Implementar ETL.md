@@ -48,6 +48,7 @@ En general el negocio les comenta que tienen datos hasta 2015, sin embargo les h
 - Con respecto a los nombres de los departamentos que presentan errores el negocio les recomienda primero estandarizar los nombres haciendo uso de diccionarios y luego revisar duplicados para finalmente lograr hacer las integraciones que sean necesarias 
 - Se eliminaron los registros inconsistentes, donde aparecia el mismo centro poblado ubicado en distintos puntos geográficos según sus variables de latitud y longitud
 - Un centro poblado es una concentración de mínimo 20 viviendas contiguas donde el negocio asume que un aeropuerto está *asignado* a un centro poblado y un centro poblado solo puede estar en un municipio
+- Las siglas de tráfico significan: N = Nacional, I = Internacional, E= postal o urgentes. Las siglas de tipos de vuelos significan: R= regular, T= taxi, C= chárter, A= adicionales
 
 ***Modelo multidimensional propuesto***<br>
 Estará disponible después de la entrega de modelado dimensional de datos.
