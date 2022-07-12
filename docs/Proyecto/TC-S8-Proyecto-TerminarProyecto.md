@@ -1,9 +1,9 @@
 # **Terminación, comunicación y evaluación del proyecto final**
 ## **Objetivo**
+- Construir tableros de control para facilitar la interacción con los datos y la identificación de hallazgos útiles para una organización
 - Utilizar el resultado de un ejercicio de analítica descriptiva para identificar su utilidad en el contexto de una organización
 - Comunicar el resultado de analítica descriptiva a personas de nivel ejecutivo de una organización
 - Aplicar una metodología para el desarrollo de proyectos de analítica descriptiva desde el entendimiento de los datos hasta la visualización del resultado
-- Construir tableros de control para facilitar la interacción con los datos y la identificación de hallazgos útiles para una organización
 ## **Instrucciones**
 
 ![](./imagenes/S210InfrestructuraVisible.png)
