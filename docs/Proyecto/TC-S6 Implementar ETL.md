@@ -62,6 +62,6 @@ Incluir en la entrega la dirección (URL) de la wiki de su repositorio <i>Estudi
 
 ## **Preguntas o más información**
 - Si el cargue de datos con la función <i>guardar_db()</i> se demora, hacer uso del código de cargue por lotes que encuentra en el Tutorial de ETL al final del bloque 6: Hecho orden
-- Recuerde que puede hacer reemplazos de cadenas de caracteres haciendo uso de diccionarios, puede encontrar un ejemplo en el siguiente enlace: https://stackoverflow.com/questions/43976237/pyspark-replacing-value-in-a-column-by-searching-a-dictionary
+- Recuerde que puede hacer reemplazos de cadenas de caracteres haciendo uso de diccionarios, puede encontrar un ejemplos en el siguiente enlace: https://sparkbyexamples.com/pyspark/pyspark-replace-column-values/
 - Las preguntas que surjan en el desarrollo de esta tarea pueden registrarlas en el slack del curso
 - Recuerde que tiene a su disposición el tutorial de Creación y manejo de la Wiki [aquí](https://misovirtual.virtual.uniandes.edu.co/codelabs/wiki-github/index.html?index=..%2F..ETL#0)
