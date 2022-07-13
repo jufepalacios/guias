@@ -51,7 +51,7 @@ En general el negocio les comenta que tienen datos hasta 2015, sin embargo les h
 - Las siglas de tráfico significan: N = Nacional, I = Internacional, E= postal o urgentes. Las siglas de tipos de vuelos significan: R= regular, T= taxi, C= chárter, A= adicionales
 
 ***Modelo multidimensional propuesto***<br>
-Estará disponible después de la entrega de modelado dimensional de datos.
+<img src="./Img/ModeloIV.png" width="800"/>
 
 ***Tecnología***
 
