@@ -10,8 +10,8 @@
     
     1. Herramienta para el diseño de los mock-ups (https://ninjamock.com/)
     2. Herramienta para desarrollar tableros de control -[Google data studio](https://datastudio.google.com)
+    3. Acceso al servidor de base de datos en especial a su data mart con los datos de movimientos
 
-    3. Acceso al servidor de base de datos
 ## **Enunciado**
 
 World Wide Importers está muy interesado en resolver el siguiente requerimiento analítico por medio del uso de un tablero de control
@@ -25,11 +25,12 @@ World Wide Importers está muy interesado en resolver el siguiente requerimiento
 Es así como lo contrató una vez más para desarrollar los siguientes entregables.
 
 1. **Entregable 1: Mock-up del tablero de control.** Diseñe el tablero de control que piensa implementar. Para ello revise los elementos gráficos que le brinda Google Data Studio, busque ejemplos de tableros de control. No olvide pensar en para quién está haciendo el tablero de control y el requerimiento que se quiere resolver. 
-2. **Entregable 2: Modo edición del tablero de control.** Una vez tenga claridad del tablero de control que quieres construir, estará listo para su desarrollo. Recuerde darle identidad de la empresa al tablero que desarrolle.
+2. **Entregable 2: Modo edición del tablero de control.** Una vez tenga claridad del tablero de control que quiere construir, gracial al mock-up diseñado, estará listo para su desarrollo. Recuerde darle identidad de la empresa al tablero que desarrolle.
 
 En los videos y lecturas de esta semana, encuentra lo que debe tener en cuenta para que sus entregables tengan la calidad esperada.
 
 ## **Recomendaciones de los entregables**
+- Conectarse a la base de datos donde haya realizado el cargue del hecho de movimientos y sus dimensiones.
 - Incluir en la entrega la dirección (link) de la wiki donde registró lo solicitado en esta tarea con las actividades realizadas dentro de las fechas establecidas
 
 ## **Preguntas o más información**
