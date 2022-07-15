@@ -51,6 +51,10 @@ En general el negocio les comenta que tienen datos hasta 2015, sin embargo les h
 - Las siglas de tráfico significan: N = Nacional, I = Internacional, E= postal o urgentes. Las siglas de tipos de vuelos significan: R= regular, T= taxi, C= chárter, A= adicionales
 
 ***Modelo multidimensional propuesto***<br>
+El modelo propuesto muestra dos tablas de hecho. La primera de ellas **HechoVuelo**, representa el proceso de registro de vuelos que es un histórico de los vuelos realizados desde o hacia aeropuertos en Colombia entre 2005 y 2017. La granularidad del hecho es de carácter mensual, y cada registro contiene el mes-año, aeropuerto de origen, aeropuerto de destino, centro poblado al cual fue asignado el aeropuerto, las características del aeropuerto en el momento del reporte, tipo de vuelo (Chárter, Regular, Taxi o Adicionales, etc.), tipo de tráfico (Internacional, Nacional, etc.), total de vuelos realizados y el número total de sillas en esos vuelos, carga ofrecida para los vuelos realizados, pasajeros que viajaron y generaron ingresos a la aerolínea y carga a bordo de los vuelos. 
+La segunda tabla de hechos **HechoHistoriaCambios** almacena la historia de los cambios realizados en los aeropuertos a nivel de longitud, ancho, clase, tipo y dado que es una *factless*, como medida se adicionó el campo cambio que es una constante de valor “1”.
+Con respecto al manejo de historia de atributos, **Centro Poblado** tiene un **manejo tipo 2** que permite registrar entre otros cambios el tipo de centro poblado o proyecciones. Mientras que, para **aeropuerto**, se propuso un **tipo 4**, creándose la minidimensión MiniDimensiónAeropuerto.
+
 <img src="./Img/ModeloIV.png" width="800"/>
 
 ***Tecnología***
