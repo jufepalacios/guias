@@ -10,7 +10,7 @@
     
     1. Herramienta para el diseño de los mock-ups (https://ninjamock.com/)
     2. Herramienta para desarrollar tableros de control -[Google data studio](https://datastudio.google.com)
-    3. Acceso al servidor de base de datos en especial a su data mart con los datos de movimientos
+    3. Acceso al servidor de base de datos en especial a la bodega WWImporters_DWH_solucion con los datos del modelo multidimensional de movimientos
 
 ## **Enunciado**
 
