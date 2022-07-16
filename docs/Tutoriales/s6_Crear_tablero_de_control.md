@@ -17,6 +17,7 @@ Visualizar los resultados y facilitar la interacción de los tomadores de decisi
 
 1. Google data studio: https://datastudio.google.com
 2. Acceso al servidor de base de datos
+3. Script auxiliar <a href='./crearTableroScript.sql'>aquí</a>
 
 ## Enunciado
 Diríjase al link de data studio, de clic en "USE IT FOR FREE" e inicie sesión en su cuenta gmail.
@@ -54,7 +55,7 @@ Sin embargo hemos visto que Data Studio funciona mejor cuando hacemos uso de tab
 <img src="./img/DS_38.PNG" width="800"/>
 <img src="./img/DS_37.PNG" width="800"/>
 
-Puede encontrar las sentencias en el script adjunto <i>crearTableroScript.sql</i>
+Puede encontrar las sentencias en el script adjunto  <a href='./crearTableroScript.sql'>crearTableroScript.sql</a>
 
 Con la tabla ya creada podemos consultarla desde Data Studio, seleccionandola y luego dando clic en <i>Añadir</i>
 
@@ -177,6 +178,9 @@ Para compartir su tablero de clic en el boton de "Compartir" en el menu superior
 En la ventana emergente de clic en <i>Gestionar acceso</i>, en el menu desplegable seleccione <i>Cualquier persona con el enlace puede verlo</i> y habilite las dos casillas inferiores para garantizar que no se pueda duplicar, descargar o configurar acceso (esta última es opcional) el tablero de control, finalmente copie el enlace y guarde la configuración
 
 <img src="./img/P_2.PNG" width="500"/>
+
+En el entregable, asegurese de seleccionar la opción *Cualquier persona con el enlace puede editarlo* de manera que los tutores puedan comprobar características de calidad del tablero como conexiones a la base de datos como observa en la siguiente imagen:
+<img src="./img/DS_55.PNG" width="500"/>
 
 # Cierre
 Al terminar este tutorial, el estudiante está en capacidad de crear tableros de control en Data Studio
