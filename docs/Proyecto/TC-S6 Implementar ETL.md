@@ -53,6 +53,7 @@ En general el negocio les comenta que tienen datos hasta 2015, sin embargo les h
 - Los totales son la suma por edad o genero. Ej Total 57 = Mujeres 57 +Hombres 57, Total Hombres = SUM(Hombres_i). Las proyecciones especificas son calculadas por el DANE a partir de los censos nacionales
 - Las proyecciones no hacen referencia a cantidad de vuelos, son proyecciones de población, es decir habitantes vivos por departamento para un año
 - Los valores de longitud y Latitud de divipola fueron corregidos
+- La columna "Unnamed: 1" son los primeros 4 o 5 dígitos del Código del Centro Poblado, si lo requieren se puede eliminar
 
 ***Modelo multidimensional propuesto***<br>
 El modelo propuesto muestra dos tablas de hecho. La primera de ellas **HechoVuelo**, representa el proceso de registro de vuelos que es un histórico de los vuelos realizados desde o hacia aeropuertos en Colombia entre 2005 y 2017. La granularidad del hecho es de carácter mensual, y cada registro contiene el mes-año, aeropuerto de origen, aeropuerto de destino, centro poblado al cual fue asignado el aeropuerto, las características del aeropuerto en el momento del reporte, tipo de vuelo (Chárter, Regular, Taxi o Adicionales, etc.), tipo de tráfico (Internacional, Nacional, etc.), total de vuelos realizados y el número total de sillas en esos vuelos, carga ofrecida para los vuelos realizados, pasajeros que viajaron y generaron ingresos a la aerolínea y carga a bordo de los vuelos. 
