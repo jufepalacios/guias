@@ -32,8 +32,9 @@ Con respecto al manejo de historia de atributos, **Centro Poblado** tiene un **m
 ![](./Img/ModeloDimensionalTableroDeControl.png)
 
 ## **Recomendaciones de los entregables**
+- Tener una copia de las tablas compartidas en su ambiente de máquina virtual para que puedan trabajarlas de forma independiente.
 - Incluir en la entrega la dirección de la wiki donde registraron lo solicitado en esta tarea.
-- Padlet
+- Padlet a utilizar:
     - Propuestas de proyecto: https://uniandes.padlet.org/lj_romero/sk6fhghzovh1en02
     - Contraseña: miso_proyectos202219
     
