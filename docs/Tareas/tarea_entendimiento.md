@@ -27,6 +27,6 @@ En esta actividad le recomendamos revisar el diccionario de datos suministrado y
 - El formato de fechas manejado es YYYY-MM-DD HH:MM:SS
 - Actualmente tenemos 13 proveedores 
 
-Idealmente debe terminar con una lista de preguntas o aclaraciones para la organización, conclusiones de los datos/problemas de calidad y alternativas para la limpieza.
+Recuerde terminar la actividad con una conclusión e incluir lista de preguntas o aclaraciones para la organización, problemas de calidad y alternativas para la limpieza.
 
 Recuerde en particular revisar la infografía de entendimiento de datos.
