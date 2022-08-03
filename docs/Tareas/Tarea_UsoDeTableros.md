@@ -25,7 +25,7 @@ Wide World  Importers está muy interesado en resolver el siguiente requerimient
 Es así como lo contrató una vez más para desarrollar los siguientes entregables.
 
 1. **Entregable 1: Mock-up del tablero de control.** Diseñe el tablero de control que piensa implementar. Para ello revise los elementos gráficos que le brinda Google Data Studio, busque ejemplos de tableros de control. No olvide pensar en, para quién está haciendo el tablero de control y el requerimiento que se quiere resolver. 
-2. **Entregable 2: Modo edición del tablero de control.** Una vez tenga claridad del tablero de control que quiere construir, gracias al mock-up diseñado, estará listo para su desarrollo. Recuerde darle identidad de la empresa al tablero que desarrolle. 
+2. **Entregable 2: Modo edición del tablero de control.** Una vez tenga claridad del tablero de control que quiere construir, gracias al mock-up diseñado, estará listo para su desarrollo. Recuerde darle identidad de la empresa al tablero que desarrolle. Incluya un video corto (máx. 3 minutos donde muestre los detalles de edición del tablero construido, cómo la base de datos a la que se conecta para traer los datos y el resultado del tablero construido).
 
 En los videos y lecturas de esta semana, encuentra lo que debe tener en cuenta para que sus entregables tengan la calidad esperada.
 
