@@ -18,12 +18,12 @@ Practicar lo aprendido en el tutorial de modelado de datos y SQL y retomar el le
 4. Script SQL <a href='https://github.com/MISW-4402-Analisis-y-Modelado-de-datos/guias/blob/main/docs/Tareas/scriptTarea.sql'>aquí</a>
 
 # Enunciado
-Ahora que sabe cómo crear modelos multidimensionales y SQL básico, lo que debe hacer en la primera parte, es crear en una base de datos relacional las tablas que representan un modelo dado, poblarlas y consultarlas. En la segunda parte, va a practicar la competencia de modelar con el caso dado. A continuación encuentra el detalle de las actividades a realizar:  
+Ahora que sabe cómo crear modelos multidimensionales y hacer sentencias básicas con SQL, lo que debe hacer en la primera parte de esta tarea, es crear en una base de datos relacional las tablas que representan el modelo multidimensional compartido, poblarlas y consultarlas. En la segunda parte, va a practicar la competencia de modelar con el caso dado (diferente al trabajado hasta este punto). A continuación encuentra el detalle de las actividades a realizar:  
 
-1.	**MODELO ROLAP**: A partir del requerimiento analítico, modelo multidimensional y sentencias SQL que se muestran más adelante, prepare los siguientes entregables. 
--	**Entregable CREATE**: Defina las sentencias para crear las tablas de cliente y movimiento de acuerdo con el modelo que se presenta.
--	**Entregable INSERT**: Defina las sentencias para la inserción de 5 registros en todas las tablas del modelo multidimensional.
--	**Entregable SELECT**: Defina las sentencias para consultar los datos de manera que le permita resolver el requerimiento analítico. 
+1.	**MODELO ROLAP CASO MOVIMIENTOS WWImporters**: A partir del requerimiento analítico, modelo multidimensional y sentencias SQL que se muestran más adelante, prepare los siguientes entregables. 
+-	**Entregable CREATE**: Defina las sentencias para crear las tablas de **cliente** y **movimiento** de acuerdo con el modelo multidimensional que se comparte.
+-	**Entregable INSERT**: Defina las sentencias para la inserción de 5 registros en todas las tablas del modelo multidimensional de **movimientos**.
+-	**Entregable SELECT**: Defina las sentencias para consultar los datos de manera que le permita resolver el requerimiento analítico sobre **movimientos**. 
 -	**Entregable EJECUTAR**: Ejecute las sentencias para crear, insertar y consultar la base de datos que refleje el modelo multidimensional dado y muestre los resultados obtenidos.
 
 | **Tema analítico**                                               | **Análisis requeridos o inferidos**                                                                                                       | **Categoría del análisis (\*)** | **Procesos de negocio** | **Fuentes de datos**                                                    |
