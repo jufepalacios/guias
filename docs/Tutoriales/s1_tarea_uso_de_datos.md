@@ -32,6 +32,7 @@ Puede usar cualquiera para el desarrollo de la tarea, tenga en cuanta que a mayo
 Según la metodología ASUM-DM, en este tutorial nos concentramos en el uso de un tablero de control que fue la aplicación desplegada en la etapa número 10 (&quot;Despliegue de solución&quot;). Por otra parte, a nivel de arquitectura de componentes estamos en la capa de aplicación y vamos a simular la interacción de un usuario final con dicha aplicación.
 ![](./imagenes/S1usotablerosImg1.png)
 ![](./imagenes/S1usotablerosImg2.png)
+
 El tablero consulta los datos de un servidor de base de datos MySQL para resolver las necesidades o requerimientos analíticos. Puede usar filtros sobre clientes, empleados, fechas, ciudades y productos.
 
 # Ejemplo de análisis sobre un tablero de control
