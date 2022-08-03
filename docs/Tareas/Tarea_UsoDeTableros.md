@@ -32,9 +32,9 @@ En los videos y lecturas de esta semana, encuentra lo que debe tener en cuenta p
 ## **Recomendaciones de los entregables**
 - Conectarse a la base de datos donde haya realizado el cargue del hecho de movimientos y sus dimensiones o en caso de requerirlo puede utilizar la bodega WWImporters_DWH_solucion con los datos del modelo multidimensional de movimientos
 
--**El proceso de crear un tablero con una cantidad superior a 10.000 registros puede tomar bastante tiempo y mostrar errores de conexión. En este punto las sugerencias son:** 
-    - inicie el diseño con una tabla con pocos registros y una vez tenga la parte que quiere validar, completamente diseñada cambie la tabla a la definitiva.
-    - Si está accediendo a la solución provista por nosotros, copiéla en su BD y trabajela de forma independiente a otros grupos.
+- **El proceso de crear un tablero con una cantidad superior a 10.000 registros puede tomar bastante tiempo y mostrar errores de conexión. En este punto las sugerencias son:** 
+  - inicie el diseño con una tabla con pocos registros y una vez tenga la parte que quiere validar, completamente diseñada cambie la tabla a la definitiva.
+  - Si está accediendo a la solución provista por nosotros, copiéla en su BD y trabajela de forma independiente a otros grupos.
 - Incluir en la entrega la dirección (link) de la wiki donde registró lo solicitado en esta tarea con las actividades realizadas dentro de las fechas establecidas
 
 ## **Preguntas o más información**
