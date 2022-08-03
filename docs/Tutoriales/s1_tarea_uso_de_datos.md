@@ -50,5 +50,5 @@ Tomando como base el contenido visto en la semana uno sobre metodología, arquit
 3. La alineación entre el hallazgo y las funciones de ese rol, los objetivos de Wide World Importers o del área a la que pertenece el rol. Si lo considera necesario puede extender el caso para darle sentido, tal como se hizo en el ejemplo.
 4. Dos acciones/decisiones posibles que el rol puede tomar usando el hallazgo sobre el tablero de control.
 
-Usted debe entregar un reporte en pdf que contenga lo solicitado.
+Usted debe entregar un reporte, similar al ejemplo dado. Dicho reporte debe estar en la Wiki del curso.
 
