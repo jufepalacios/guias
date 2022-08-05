@@ -19,9 +19,9 @@ Wide World Importers nos contrata como consultores para hacer un proyecto de ana
 
 2. Los tableros de control construidos con Data Studio: Comportamiento de clientes a partir de órdenes de compra: 
 
-- [1.000 registros](https://datastudio.google.com/reporting/b00690e8-9e3e-47ec-8c2a-5ca0df2bd981)
-- [50.000 registros](https://datastudio.google.com/reporting/5714f6b7-da68-47e7-aaf2-43aa86e2e52c)
-- [145.000 registros](https://datastudio.google.com/reporting/ed1d3c28-43e5-4d70-ae08-0873b29ee8cb)
+- [1.000 registros](https://datastudio.google.com/reporting/1b8e432d-3d2d-4f8b-8174-30f992f72dae)
+- [50.000 registros](https://datastudio.google.com/reporting/2972ff51-1887-4a12-8df1-2ac6891e5699)
+- [145.000 registros](https://datastudio.google.com/reporting/9321febb-c8c7-4b0b-94ac-45a82f8b2ba5)
 
 Puede usar cualquiera para el desarrollo de la tarea, tenga en cuanta que a mayor número de registros mayor tiempo toman las herramientas para procesar
 
